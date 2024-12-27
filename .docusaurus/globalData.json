@@ -1,0 +1,70 @@
+{
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-P6HQJZPT0C"
+      ],
+      "anonymizeIP": false,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "clusteringautomation": {
+      "path": "/playbooks/playbooks/clustering-automation",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/playbooks/playbooks/clustering-automation",
+          "mainDocId": "guide/clustering",
+          "docs": [
+            {
+              "id": "CHANGELOG",
+              "path": "/playbooks/playbooks/clustering-automation/CHANGELOG"
+            },
+            {
+              "id": "guide/clustering",
+              "path": "/playbooks/playbooks/clustering-automation/guide/clustering",
+              "sidebar": "clusteringautomation"
+            },
+            {
+              "id": "guide/playbook",
+              "path": "/playbooks/playbooks/clustering-automation/guide/playbook",
+              "sidebar": "clusteringautomation"
+            },
+            {
+              "id": "guide/recommendation",
+              "path": "/playbooks/playbooks/clustering-automation/guide/recommendation",
+              "sidebar": "clusteringautomation"
+            },
+            {
+              "id": "guide/results",
+              "path": "/playbooks/playbooks/clustering-automation/guide/results",
+              "sidebar": "clusteringautomation"
+            },
+            {
+              "id": "playbook-guide-pdf",
+              "path": "/playbooks/playbooks/clustering-automation/playbook-guide-pdf",
+              "sidebar": "clusteringautomation"
+            },
+            {
+              "id": "Survey",
+              "path": "/playbooks/playbooks/clustering-automation/Survey"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "clusteringautomation": {
+              "link": {
+                "path": "/playbooks/playbooks/clustering-automation/guide/clustering",
+                "label": "guide/clustering"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    }
+  }
+}

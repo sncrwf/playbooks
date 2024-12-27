@@ -1,0 +1,14 @@
+{
+  "unversionedId": "CHANGELOG",
+  "id": "CHANGELOG",
+  "title": "CHANGELOG",
+  "description": "Histórico",
+  "source": "@site/playbooks/automation/CHANGELOG.md",
+  "sourceDirName": ".",
+  "slug": "/CHANGELOG",
+  "permalink": "/playbooks/playbooks/automation/CHANGELOG",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "playbook/takeoff",
+  "id": "playbook/takeoff",
+  "title": "5. Lista de Verificação para Decolagem 🚀",
+  "description": "Vamos garantir que você tenha tudo o que precisa para começar.",
+  "source": "@site/playbooks/automation/playbook/05-Takeoff_Checklist.md",
+  "sourceDirName": "playbook",
+  "slug": "/playbook/takeoff",
+  "permalink": "/playbooks/playbooks/automation/playbook/takeoff",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "takeoff",
+    "title": "5. Lista de Verificação para Decolagem 🚀",
+    "hide_table_of_contents": true,
+    "draft": false
+  }
+}

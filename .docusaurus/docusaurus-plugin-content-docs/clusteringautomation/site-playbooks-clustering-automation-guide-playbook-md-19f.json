@@ -1,0 +1,28 @@
+{
+  "unversionedId": "guide/playbook",
+  "id": "guide/playbook",
+  "title": "4. Playbook",
+  "description": "Introdução",
+  "source": "@site/playbooks/clustering-automation/guide/playbook.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/playbook",
+  "permalink": "/playbooks/playbooks/clustering-automation/guide/playbook",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "playbook",
+    "title": "4. Playbook",
+    "sidebar_label": "4. Playbook",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "clusteringautomation",
+  "previous": {
+    "title": "3. Quantificar o Valor e Gerar Recomendações",
+    "permalink": "/playbooks/playbooks/clustering-automation/guide/recommendation"
+  },
+  "next": {
+    "title": "Baixar Guia do Playbook em PDF",
+    "permalink": "/playbooks/playbooks/clustering-automation/playbook-guide-pdf"
+  }
+}

@@ -1,0 +1,64 @@
+---
+# Build the PDFs after new deployment has been made to gh-pages
+# This is because PrinceXML can only scan public pages and not localserver
+
+name: PDFs Build and Deploy
+
+# Controls when the action will run.  
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+    - 'latest' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+  # Allows you to run the workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  # Give the default GITHUB_TOKEN write permission to commit and push the
+  # added or changed files to the repository.
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+# group: "pages"
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  pdfs-build-deployment:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/setup-node@v3.8.1
+        with:
+          node-version: 20
+
+      - name: Install
+        run: npm install docs-to-pdf fs-extra
+
+      - name: Build Playbook Clustering-Driven Automation Assessment
+        run: npx docs-to-pdf --initialDocURLs="https://sncrwf.github.io/playbooks/playbooks/clustering-automation/guide/clustering" --contentSelector="article" --paginationSelector=".pagination-nav__link--next" --excludeSelectors=".margin-vert--xl a" --coverImage="https://sncrwf.github.io/workshops/img/servicenow-logo.png" --coverTitle="Playbooks Creator Workflows" --coverSub "Clustering-Driven Automation Assessment" --outputPDFFilename "clustering-automation-assessment.pdf"
+
+      # - name: Upload results
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: Lab-Guides-PDF
+      #     # The output filename can be specified with --output option
+      #     path: ./*.pdf
+      #     if-no-files-found: error
+
+      - name: Release with Notes
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            clustering-automation-assessment.pdf
+            
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

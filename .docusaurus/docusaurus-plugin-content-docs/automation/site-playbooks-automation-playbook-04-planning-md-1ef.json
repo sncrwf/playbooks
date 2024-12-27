@@ -1,0 +1,20 @@
+{
+  "unversionedId": "playbook/planning",
+  "id": "playbook/planning",
+  "title": "4. Planejamento",
+  "description": "Antes de Amanda iniciar sua jornada como Desenvolvedora Cidadã na App Engine da ServiceNow, ela quer se certificar de que está bem preparada.",
+  "source": "@site/playbooks/automation/playbook/04-Planning.md",
+  "sourceDirName": "playbook",
+  "slug": "/playbook/planning",
+  "permalink": "/playbooks/playbooks/automation/playbook/planning",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "planning",
+    "title": "4. Planejamento",
+    "hide_table_of_contents": true,
+    "draft": false
+  }
+}

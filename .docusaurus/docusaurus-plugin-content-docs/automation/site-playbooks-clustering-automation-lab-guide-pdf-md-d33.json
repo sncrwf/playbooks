@@ -1,0 +1,23 @@
+{
+  "unversionedId": "lab-guide-pdf",
+  "id": "lab-guide-pdf",
+  "title": "Baixar Guia do Laboratório em PDF",
+  "description": "Clique aqui para baixar o Guia do Laboratório em PDF",
+  "source": "@site/playbooks/clustering-automation/lab-guide-pdf.md",
+  "sourceDirName": ".",
+  "slug": "/lab-guide-pdf",
+  "permalink": "/playbooks/playbooks/clustering-automation/lab-guide-pdf",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "lab-guide-pdf",
+    "title": "Baixar Guia do Laboratório em PDF",
+    "draft": false
+  },
+  "sidebar": "teleworkvancouver",
+  "previous": {
+    "title": "1. Automation Playbook",
+    "permalink": "/playbooks/playbooks/clustering-automation/guide/automation-playbook"
+  }
+}

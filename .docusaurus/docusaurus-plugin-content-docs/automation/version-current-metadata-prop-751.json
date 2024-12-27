@@ -1,0 +1,50 @@
+{
+  "pluginId": "automation",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "teleworkvancouver": [
+      {
+        "type": "link",
+        "label": "1. Automation Playbook",
+        "href": "/playbooks/playbooks/clustering-automation/guide/automation-playbook",
+        "docId": "guide/automation-playbook"
+      },
+      {
+        "type": "link",
+        "label": "Baixar Guia do Laboratório em PDF",
+        "href": "/playbooks/playbooks/clustering-automation/lab-guide-pdf",
+        "docId": "lab-guide-pdf"
+      }
+    ]
+  },
+  "docs": {
+    "CHANGELOG": {
+      "id": "CHANGELOG",
+      "title": "CHANGELOG",
+      "description": "Histórico"
+    },
+    "guide/automation-playbook": {
+      "id": "guide/automation-playbook",
+      "title": "1. Automation Playbook",
+      "description": "....",
+      "sidebar": "teleworkvancouver"
+    },
+    "lab-guide-pdf": {
+      "id": "lab-guide-pdf",
+      "title": "Baixar Guia do Laboratório em PDF",
+      "description": "Clique aqui para baixar o Guia do Laboratório em PDF",
+      "sidebar": "teleworkvancouver"
+    },
+    "Survey": {
+      "id": "Survey",
+      "title": "Valorizamos Seu Feedback!",
+      "description": "Ajude-nos a Melhorar Sua Experiência de Aprendizado"
+    }
+  }
+}

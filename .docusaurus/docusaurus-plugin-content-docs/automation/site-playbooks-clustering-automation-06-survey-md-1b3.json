@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Survey",
+  "id": "Survey",
+  "title": "Valorizamos Seu Feedback!",
+  "description": "Ajude-nos a Melhorar Sua Experiência de Aprendizado",
+  "source": "@site/playbooks/clustering-automation/06-Survey.md",
+  "sourceDirName": ".",
+  "slug": "/Survey",
+  "permalink": "/playbooks/playbooks/clustering-automation/Survey",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Valorizamos Seu Feedback!",
+    "sidebar_label": "Pesquisa",
+    "hide_table_of_contents": true
+  }
+}

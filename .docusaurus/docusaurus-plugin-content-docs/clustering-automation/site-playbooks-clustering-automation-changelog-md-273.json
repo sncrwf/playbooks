@@ -1,0 +1,23 @@
+{
+  "unversionedId": "CHANGELOG",
+  "id": "CHANGELOG",
+  "title": "CHANGELOG",
+  "description": "Histórico",
+  "source": "@site/playbooks/clustering-automation/CHANGELOG.md",
+  "sourceDirName": ".",
+  "slug": "/CHANGELOG",
+  "permalink": "/playbooks/playbooks/clustering-automation/CHANGELOG",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Pesquisa",
+    "permalink": "/playbooks/playbooks/clustering-automation/Survey"
+  },
+  "next": {
+    "title": "1. Configurando o Clustering",
+    "permalink": "/playbooks/playbooks/clustering-automation/guide/automation-playbook"
+  }
+}

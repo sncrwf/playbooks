@@ -1,0 +1,25 @@
+{
+  "unversionedId": "guide/automation-playbook",
+  "id": "guide/automation-playbook",
+  "title": "1. Automation Playbook",
+  "description": "....",
+  "source": "@site/playbooks/clustering-automation/guide/01-automation-playbook.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/automation-playbook",
+  "permalink": "/playbooks/playbooks/clustering-automation/guide/automation-playbook",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "automation-playbook",
+    "title": "1. Automation Playbook",
+    "hide_table_of_contents": true,
+    "draft": false
+  },
+  "sidebar": "teleworkvancouver",
+  "next": {
+    "title": "Baixar Guia do Laboratório em PDF",
+    "permalink": "/playbooks/playbooks/clustering-automation/lab-guide-pdf"
+  }
+}

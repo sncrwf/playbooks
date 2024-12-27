@@ -1,0 +1,93 @@
+{
+  "/playbooks/__docusaurus/debug-474": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+    }
+  },
+  "/playbooks/__docusaurus/debug/config-7c8": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+    }
+  },
+  "/playbooks/__docusaurus/debug/content-6c6": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+    },
+    "allContent": "allContent---playbooks-docusaurus-debug-content-246-70d"
+  },
+  "/playbooks/__docusaurus/debug/globalData-f40": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+    }
+  },
+  "/playbooks/__docusaurus/debug/metadata-a8e": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+    }
+  },
+  "/playbooks/__docusaurus/debug/registry-ded": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+    }
+  },
+  "/playbooks/__docusaurus/debug/routes-716": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+    }
+  },
+  "/playbooks/search-77b": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__context": {
+      "plugin": "plugin---playbooks-search-808-cf5"
+    }
+  },
+  "/playbooks/playbooks/clustering-automation-e7f": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---playbooks-playbooks-clustering-automation-7-c-3-614"
+    },
+    "versionMetadata": "versionMetadata---playbooks-playbooks-clustering-automationac-8-471"
+  },
+  "/playbooks/playbooks/clustering-automation/CHANGELOG-bc9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-clustering-automation-changelog-273-c6f"
+  },
+  "/playbooks/playbooks/clustering-automation/guide/clustering-b07": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-clustering-automation-guide-clustering-15-c-b0c"
+  },
+  "/playbooks/playbooks/clustering-automation/guide/playbook-801": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-clustering-automation-guide-recommendation-19-f-8d9"
+  },
+  "/playbooks/playbooks/clustering-automation/guide/recommendation-8a9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-clustering-automation-guide-resultse-3-e-f3a"
+  },
+  "/playbooks/playbooks/clustering-automation/guide/results-0a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-clustering-automation-guide-clustering-5-ce-ad9"
+  },
+  "/playbooks/playbooks/clustering-automation/playbook-guide-pdf-db1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-clustering-automation-lab-guide-pdfd-33-768"
+  },
+  "/playbooks/playbooks/clustering-automation/Survey-006": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-clustering-automation-survey-1-b-3-ff6"
+  },
+  "/playbooks/-980": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---playbooks-847-d5f"
+    },
+    "config": "config---playbooks-5-e-9-4e9"
+  }
+}

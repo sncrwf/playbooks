@@ -1,0 +1,86 @@
+{
+  "pluginId": "clusteringautomation",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "clusteringautomation": [
+      {
+        "type": "link",
+        "label": "1. Configurando o Clustering",
+        "href": "/playbooks/playbooks/clustering-automation/guide/clustering",
+        "docId": "guide/clustering"
+      },
+      {
+        "type": "link",
+        "label": "2. Análise dos Resultados",
+        "href": "/playbooks/playbooks/clustering-automation/guide/results",
+        "docId": "guide/results"
+      },
+      {
+        "type": "link",
+        "label": "3. Quantificar o Valor e Gerar Recomendações",
+        "href": "/playbooks/playbooks/clustering-automation/guide/recommendation",
+        "docId": "guide/recommendation"
+      },
+      {
+        "type": "link",
+        "label": "4. Playbook",
+        "href": "/playbooks/playbooks/clustering-automation/guide/playbook",
+        "docId": "guide/playbook"
+      },
+      {
+        "type": "link",
+        "label": "Baixar Guia do Playbook em PDF",
+        "href": "/playbooks/playbooks/clustering-automation/playbook-guide-pdf",
+        "docId": "playbook-guide-pdf"
+      }
+    ]
+  },
+  "docs": {
+    "CHANGELOG": {
+      "id": "CHANGELOG",
+      "title": "CHANGELOG",
+      "description": "Histórico"
+    },
+    "guide/clustering": {
+      "id": "guide/clustering",
+      "title": "1. Configurando o Clustering",
+      "description": "Introdução",
+      "sidebar": "clusteringautomation"
+    },
+    "guide/playbook": {
+      "id": "guide/playbook",
+      "title": "4. Playbook",
+      "description": "Introdução",
+      "sidebar": "clusteringautomation"
+    },
+    "guide/recommendation": {
+      "id": "guide/recommendation",
+      "title": "3. Quantificar o Valor e Gerar Recomendações",
+      "description": "Introdução",
+      "sidebar": "clusteringautomation"
+    },
+    "guide/results": {
+      "id": "guide/results",
+      "title": "2. Análise dos Resultados com Clustering Recommendations Utility",
+      "description": "Download do Clustering Recommendations Utility",
+      "sidebar": "clusteringautomation"
+    },
+    "playbook-guide-pdf": {
+      "id": "playbook-guide-pdf",
+      "title": "Baixar Guia do Playbook em PDF",
+      "description": "Clique aqui para baixar o Guia do Laboratório em PDF",
+      "sidebar": "clusteringautomation"
+    },
+    "Survey": {
+      "id": "Survey",
+      "title": "Valorizamos Seu Feedback!",
+      "description": "Ajude-nos a Melhorar Sua Experiência de Aprendizado"
+    }
+  }
+}

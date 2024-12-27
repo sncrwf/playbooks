@@ -1,0 +1,20 @@
+{
+  "unversionedId": "playbook/use-case",
+  "id": "playbook/use-case",
+  "title": "3. Caso de Uso",
+  "description": "Visão Geral",
+  "source": "@site/playbooks/automation/playbook/03-Use-case.md",
+  "sourceDirName": "playbook",
+  "slug": "/playbook/use-case",
+  "permalink": "/playbooks/playbooks/automation/playbook/use-case",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "use-case",
+    "title": "3. Caso de Uso",
+    "hide_table_of_contents": true,
+    "draft": false
+  }
+}
