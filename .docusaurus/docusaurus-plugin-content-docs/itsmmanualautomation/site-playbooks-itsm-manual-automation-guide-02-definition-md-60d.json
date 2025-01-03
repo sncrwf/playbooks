@@ -1,0 +1,29 @@
+{
+  "unversionedId": "guide/definition",
+  "id": "guide/definition",
+  "title": "2. Definição das Métricas e Origem dos Dados",
+  "description": "",
+  "source": "@site/playbooks/itsm-manual-automation/guide/02-definition.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/definition",
+  "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/definition",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "definition",
+    "title": "2. Definição das Métricas e Origem dos Dados",
+    "sidebar_label": "2. Definição das Métricas e Origem dos Dados",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "clusteringautomation",
+  "previous": {
+    "title": "1. Preparação para o Workshop",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/preparation"
+  },
+  "next": {
+    "title": "3. Criação de Reports e Dashboards",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/dashboards"
+  }
+}

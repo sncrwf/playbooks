@@ -1,0 +1,25 @@
+{
+  "unversionedId": "guide/preparation",
+  "id": "guide/preparation",
+  "title": "1. Preparação para Workshop",
+  "description": "Introdução",
+  "source": "@site/playbooks/itsm-manual-automation/guide/01-preparation.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/preparation",
+  "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/preparation",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "preparation",
+    "title": "1. Preparação para Workshop",
+    "sidebar_label": "1. Preparação para o Workshop",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "clusteringautomation",
+  "next": {
+    "title": "2. Definição das Métricas e Origem dos Dados",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/definition"
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import Link from '@docusaurus/Link';
-import { faArrowRight, faDiagramProject, faFileInvoice, faHouseLaptop, faHouseUser, faIdCardClip, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faDiagramProject, faFileInvoice, faGaugeHigh, faHouseLaptop, faHouseUser, faIdCardClip, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileCode, faUsers, faCog, faPlane, faRobot, faTruck, faHeadset } from '@fortawesome/free-solid-svg-icons';
@@ -58,7 +58,16 @@ const FeatureList = [
     target: '_self',
   },
 
-  
-
+  {
+    title: 'ITSM - Report-Driven Automation Assessment',
+    icon: faGaugeHigh,
+    description: (
+      <>
+      <div class="button-homepage-utah">⚙️ Automation Engine</div><br/>Um processo orientado por dados que utiliza KPIs, Report e Dashboards para identificar, consolidar e priorizar oportunidades de automação.<br/>
+      </>
+    ),
+    to: './playbooks/itsm-manual-automation/guide/preparation',
+    target: '_self',
+  },
 
 ];

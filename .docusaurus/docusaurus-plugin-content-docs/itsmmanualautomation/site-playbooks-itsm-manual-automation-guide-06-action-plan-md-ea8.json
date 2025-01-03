@@ -1,0 +1,29 @@
+{
+  "unversionedId": "guide/action-plan",
+  "id": "guide/action-plan",
+  "title": "6. Plano de Ação para Endereçar as Automações",
+  "description": "Introdução",
+  "source": "@site/playbooks/itsm-manual-automation/guide/06-action-plan.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/action-plan",
+  "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/action-plan",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "action-plan",
+    "title": "6. Plano de Ação para Endereçar as Automações",
+    "sidebar_label": "6. Plano de Ação para Endereçar as Automações",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "clusteringautomation",
+  "previous": {
+    "title": "5. Priorização dos Findings e Análise de ROI",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi"
+  },
+  "next": {
+    "title": "Baixar Guia do Playbook em PDF",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf"
+  }
+}

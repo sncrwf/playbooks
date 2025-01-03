@@ -1,57 +1,57 @@
 {
-  "/playbooks/__docusaurus/debug-474": {
+  "/playbooks/__docusaurus/debug-b6b": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
     }
   },
-  "/playbooks/__docusaurus/debug/config-7c8": {
+  "/playbooks/__docusaurus/debug/config-dc3": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
     }
   },
-  "/playbooks/__docusaurus/debug/content-6c6": {
+  "/playbooks/__docusaurus/debug/content-749": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
     },
     "allContent": "allContent---playbooks-docusaurus-debug-content-246-70d"
   },
-  "/playbooks/__docusaurus/debug/globalData-f40": {
+  "/playbooks/__docusaurus/debug/globalData-221": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
     }
   },
-  "/playbooks/__docusaurus/debug/metadata-a8e": {
+  "/playbooks/__docusaurus/debug/metadata-886": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
     }
   },
-  "/playbooks/__docusaurus/debug/registry-ded": {
+  "/playbooks/__docusaurus/debug/registry-ca9": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
     }
   },
-  "/playbooks/__docusaurus/debug/routes-716": {
+  "/playbooks/__docusaurus/debug/routes-bb7": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-3-c-4-07d"
+      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
     }
   },
-  "/playbooks/search-77b": {
+  "/playbooks/search-e78": {
     "__comp": "__comp---theme-search-page-1-a-4-d6f",
     "__context": {
-      "plugin": "plugin---playbooks-search-808-cf5"
+      "plugin": "plugin---playbooks-searchc-7-c-214"
     }
   },
-  "/playbooks/playbooks/clustering-automation-e7f": {
+  "/playbooks/playbooks/clustering-automation-2b4": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---playbooks-playbooks-clustering-automation-7-c-3-614"
+      "plugin": "plugin---playbooks-playbooks-clustering-automationaf-1-cf2"
     },
     "versionMetadata": "versionMetadata---playbooks-playbooks-clustering-automationac-8-471"
   },
@@ -65,28 +65,71 @@
   },
   "/playbooks/playbooks/clustering-automation/guide/playbook-801": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-guide-recommendation-19-f-8d9"
+    "content": "content---playbooks-playbooks-clustering-automation-guide-playbook-19-f-b5e"
   },
   "/playbooks/playbooks/clustering-automation/guide/recommendation-8a9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-guide-resultse-3-e-f3a"
+    "content": "content---playbooks-playbooks-clustering-automation-guide-recommendatione-3-e-9ce"
   },
   "/playbooks/playbooks/clustering-automation/guide/results-0a5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-guide-clustering-5-ce-ad9"
+    "content": "content---playbooks-playbooks-clustering-automation-guide-results-5-ce-1b2"
   },
   "/playbooks/playbooks/clustering-automation/playbook-guide-pdf-db1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-lab-guide-pdfd-33-768"
+    "content": "content---playbooks-playbooks-clustering-automation-playbook-guide-pdfd-33-fc4"
   },
   "/playbooks/playbooks/clustering-automation/Survey-006": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---playbooks-playbooks-clustering-automation-survey-1-b-3-ff6"
   },
-  "/playbooks/-980": {
+  "/playbooks/playbooks/itsm-manual-automation-8a5": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---playbooks-playbooks-itsm-manual-automationb-38-9dd"
+    },
+    "versionMetadata": "versionMetadata---playbooks-playbooks-itsm-manual-automationc-29-b57"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/CHANGELOG-ffe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-changelog-3-c-6-017"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/guide/action-plan-bb7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-action-planea-8-769"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/guide/analysis-ab7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-analysis-20-f-2cb"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/guide/dashboards-0e0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-dashboardse-55-1ed"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/guide/definition-f64": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-definition-60-d-47d"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/guide/preparation-aea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-preparation-724-7ab"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi-0af": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-prioritization-roidc-3-436"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf-ef8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-playbook-guide-pdf-224-961"
+  },
+  "/playbooks/playbooks/itsm-manual-automation/Survey-23b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---playbooks-playbooks-itsm-manual-automation-survey-14-d-5ac"
+  },
+  "/playbooks/-d85": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---playbooks-847-d5f"
+      "plugin": "plugin---playbooks-bc-5-06a"
     },
     "config": "config---playbooks-5-e-9-4e9"
   }
