@@ -41,6 +41,8 @@ A aba de Visualização de Cluster no formulário de Definição de Solução de
 
 ## Passo 1 - Ativar os plugins
 
+### Predictive Intelligence
+
 1. Acesse a instância de sub-prod clonada com perfil de Administrador
 2. Navegue até os Plugins (All > System Definition > Plugins)
    ![](../images/2025-01-06-09-35-55.png)
@@ -56,7 +58,7 @@ A aba de Visualização de Cluster no formulário de Definição de Solução de
    Caso o produto com nome **APENAS** de **Predictive Intelligence** não apareça, clique em view more
    :::
 
-7. Clique no botão `Proceed to update` ou `Install`
+7. Clique no botão `Install` ou `Proceed to update`
 ![](../images/2025-01-06-09-48-25.png)
 8. Clique em Proceed
 ![](../images/2025-01-06-09-50-53.png)
@@ -64,7 +66,23 @@ A aba de Visualização de Cluster no formulário de Definição de Solução de
 ![](../images/2025-01-06-09-51-42.png)
 10. Aguarde o processo de instalação finalizar.
 ![](../images/2025-01-06-09-52-18.png)
+![](../images/2025-01-06-10-46-32.png)
 
+### Continual Improvement Management
+
+1. Pesquiser por (1) **"Continual Improvement Management"** na barra de pesquisa, (2) **busque** e filtre apenas por (3) **Products**.
+![](../images/2025-01-06-10-49-10.png)
+2. Clique no produto **Continual Improvement Management**
+![](../images/2025-01-06-10-52-22.png)
+3. Clique no botão `Install` ou `Proceed to update`
+![](../images/2025-01-06-10-50-38.png)
+4. Clique em Proceed
+![](../images/2025-01-06-10-51-09.png)
+5. Selecione Install now e Instrall
+![](../images/2025-01-06-10-51-34.png)
+6.  Aguarde o processo de instalação finalizar.
+![](../images/2025-01-06-10-51-53.png)
+![](../images/2025-01-06-10-55-05.png)
 
 ## Passo 2 - Criar o Corpus de Palavras
 

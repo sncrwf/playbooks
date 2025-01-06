@@ -624,12 +624,11 @@ p img {
 
 .markdown h3,
 [data-theme="dark"] .markdown h3 {
-  @apply bg-gray-600;
+  @apply bg-gray-800;
   @apply font-bold;
-  @apply ml-5;
   @apply mt-2;
   @apply p-1;
-  @apply pl-4;
+  @apply pl-10;
   @apply rounded-md;
   @apply text-white;
 }
