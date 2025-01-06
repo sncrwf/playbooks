@@ -7,12 +7,12 @@ hide_table_of_contents: true
 
 ## Introdução
 
-Este guia descreve como configurar a funcionalidade de **Clustering de Inteligência Preditiva** para identificar candidatos de automação utilizando dados do cliente e ilustrar o valor não reconhecido do ITSM Professional.
+Este guia descreve como configurar a funcionalidade de **Clustering de Inteligência Preditiva** para identificar candidatos de automação utilizando dados do cliente.
 
 ## Objetivo
 
 - Identificar casos de uso de automação utilizando dados do cliente.
-- Demonstrar o potencial de ferramentas como **Integration Hub Automation** e **Virtual Agent**.
+- Demonstrar o potencial de ferramentas como **Integration Hub, RPA Hub, Document Intelligence e Stream Connect** 
 
 ## Clustering de Inteligência Preditiva
 
@@ -24,25 +24,49 @@ A aba de Visualização de Cluster no formulário de Definição de Solução de
 
 ![](../images/2024-12-27-14-51-55.png)
 
-### Etapas do Processo
+## Etapas do Processo
 
-1. Ativar plugins: Predictive Intelligence, Continual Improvement e Performance Analytics.
-2. Configurar as Definições de Soluções de Clustering e analisar os Clusters resultantes para identificar candidatos de automação.
-3. Identificar e validar candidatos de automação.
-4. Fornecer recomendações.
-5. Quantificar e apresentar o valor para o negócio.
+  1. Ativar plugins: **Predictive Intelligence, Continual Improvement e Performance Analytics.**
+  2. Configurar as Definições de Soluções de Clustering e analisar os Clusters resultantes para identificar candidatos de automação.
+  3. Identificar e validar candidatos de automação.
+  4. Fornecer recomendações.
+  5. Quantificar e apresentar o valor para o negócio.
 
-### Requisitos
+## Requisitos
 
 - Acesso de administrador a uma instância sub-prod recentemente clonada, executando a versão New York ou superior.
 - Ativação dos plugins Predictive Intelligence e Continual Improvement Management.
 
-### Suporte
-- Utilize o canal **#ai_sc_assist_public** no Slack para suporte geral, dúvidas ou problemas relacionados ao processo de clustering.
+# Como Configurar o Clustering
 
-## Como Configurar o Clustering
+## Passo 1 - Ativar os plugins
 
-### Passo 1 - Criar o Corpus de Palavras
+1. Acesse a instância de sub-prod clonada com perfil de Administrador
+2. Navegue até os Plugins (All > System Definition > Plugins)
+   ![](../images/2025-01-06-09-35-55.png)
+3. Primeiro, iremos sincronizar os plugins disponíveis, cliquem em `Sync now`
+   ![](../images/2025-01-06-09-39-54.png)
+4. Aguarde a sincronização finalizar.
+5. Pesquiser por (1) **"Predictive Intelligence"** na barra de pesquisa, (2) **busque** e filtre apenas por (3) **Products**.
+   ![](../images/2025-01-06-09-43-51.png)
+6. Clique no produto **Predictive Intelligence**
+   ![](../images/2025-01-06-09-46-24.png)
+
+   :::info
+   Caso o produto com nome **APENAS** de **Predictive Intelligence** não apareça, clique em view more
+   :::
+
+7. Clique no botão `Proceed to update` ou `Install`
+![](../images/2025-01-06-09-48-25.png)
+8. Clique em Proceed
+![](../images/2025-01-06-09-50-53.png)
+9. Selecione Install now e Instrall
+![](../images/2025-01-06-09-51-42.png)
+10. Aguarde o processo de instalação finalizar.
+![](../images/2025-01-06-09-52-18.png)
+
+
+## Passo 2 - Criar o Corpus de Palavras
 
 Na instância sub-prod, identifique os campos significativos para a análise de clustering nos registros do cliente. Por exemplo:
 
@@ -74,7 +98,7 @@ Defina também o período de análise; por exemplo, todos os incidentes criados 
 
 Repita este passo para todas as outras tabelas que serão utilizadas. Na maioria dos casos, incluirá **Requested Items**, **Calls**, **Interactions** e **HR Cases**.
 
-### Passo 2 - Iniciar o Treinamento de Soluções de Clustering
+## Passo 3 - Iniciar o Treinamento de Soluções de Clustering
 
 Você pode treinar diferentes soluções utilizando filtros variados. No exemplo a seguir, criaremos uma definição de clustering para incidentes que não são de origem **Event Source**.
 

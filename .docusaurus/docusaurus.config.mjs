@@ -206,7 +206,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 ServiceNow"
+      "copyright": "Copyright © 2025 ServiceNow"
     },
     "algolia": {
       "appId": "LE7UCUELDB",

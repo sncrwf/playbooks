@@ -33,72 +33,8 @@
     <img src="static/img/servicenow-logo.png" alt="Logo" >
   </a>
 
-  <h3 align="center">Creator Workshops Lab Guides</h3>
-
-  <p align="center">
-    An awesome repository of Lab Guides for ServiceNow Creator Workflows!
-    <br />
-    <a href="https://github.com/CreatorWorkflowsNow/creatorworkflowsnow.github.io"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/CreatorWorkflowsNow/creatorworkflowsnow.github.io">View Demo</a>
-    ·
-    <a href="https://github.com/CreatorWorkflowsNow/creatorworkflowsnow.github.io/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/CreatorWorkflowsNow/creatorworkflowsnow.github.io/issues">Request Feature</a>
-  </p>
+  <h3 align="center">Creator Workflows Playbooks</h3>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-# Table of Contents
-- [Table of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-  - [Lab Guide Status](#lab-guide-status)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Pre-requisites](#pre-requisites)
-  - [Creating or Updating content](#creating-or-updating-content)
-- [Examples](#examples)
-  - [Example Lab Guide](#example-lab-guide)
-  - [Admonitions](#admonitions)
-  - [Front Matter](#front-matter)
-  - [VS Code tips](#vs-code-tips)
-- [FAQs](#faqs)
-  - [How do I install Node.js and NPM on MacOS?](#how-do-i-install-nodejs-and-npm-on-macos)
-  - [How do I install Node.js and NPM on Windows?](#how-do-i-install-nodejs-and-npm-on-windows)
-- [How are the new changes published?](#how-are-the-new-changes-published)
-  - [1. Source build and deploy to gh-pages](#1-source-build-and-deploy-to-gh-pages)
-  - [2. pages build and deployment](#2-pages-build-and-deployment)
-- [Who do I talk to?](#who-do-i-talk-to)
-- [Maintainers](#maintainers)
-
-
-
-<!-- ABOUT THE PROJECT -->
-# About The Project
-
-[![creatorworkflowsnow.github.io Screen Shot][creatorworkflowsnow.github.io-screenshot]](https://creatorworkflowsnow.github.io)
-
-A lab guide website for ServiceNow Creator Workflow Workshops. The lab guides are designed to be used with a pre-configured ServiceNow instance provided to you at a live Workshop event. Results may vary trying on your own instance. 
-
-## Lab Guide Status
-|Lab Guide                   |ServiceNow Version|Status        |Content Owner    |Last Updated|Project|
-|----------------------------|------------------|--------------|-----------------|------------|-------|
-|Telework Case Management 101|Vancouver         |Live          |[Marc Mouries](https://github.com/marcmouries)|04-10-2024  |       |
-|Telework Case Management 101|Washington        |Planning      |[Marc Mouries](https://github.com/marcmouries)|N/A         |[Link](https://github.com/orgs/CreatorWorkflowsNow/projects/12)|
-|Telework Case Management 201|Vancouver         |Live          |[Marc Mouries](https://github.com/marcmouries)|03-21-2024  |       |
-|Collaborate to Accelerate   |Vancouver         |Live          |[Dale Stubblefield](https://github.com/dalestubblefield)|02-22-2024  |       |
-|iHub: Spoke Generator       |Vancouver         |Live          |[Dale Stubblefield](https://github.com/dalestubblefield)|01-30-2024  |       |
-|EWF + CrWF                  |Utah              |Live          |[Dale Stubblefield](https://github.com/dalestubblefield)|02-22-2024  |       |
-|Travel Request              |Utah              |Live          |Shao Wei Tan|02-22-2024  |       |
-|Complaints Management       |Utah              |Live          |[Kristy Merriam](https://github.com/KristyS96)|02-28-2024  |       |
-<br/>
-<details>
-   <summary>Retired Lab Guides</summary>
-
-   - Collaborate to Accelerate (Utah)
-   - Telework Case Management 101 (Utah)
-</details>
 
 ## Built With
 [![Docusaurus][Docusuarus-tiny]][Docusaurus-url]<br/>
