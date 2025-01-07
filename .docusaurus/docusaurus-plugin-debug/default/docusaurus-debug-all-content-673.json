@@ -49,50 +49,80 @@
             {
               "unversionedId": "guide/clustering",
               "id": "guide/clustering",
-              "title": "1. Configurando o Clustering",
-              "description": "Introdução",
-              "source": "@site/playbooks/clustering-automation/guide/01-clustering.md",
+              "title": "2. Configurando o Clustering",
+              "description": "Clustering de Inteligência Preditiva",
+              "source": "@site/playbooks/clustering-automation/guide/02-clustering.md",
               "sourceDirName": "guide",
               "slug": "/guide/clustering",
               "permalink": "/playbooks/playbooks/clustering-automation/guide/clustering",
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "id": "clustering",
-                "title": "1. Configurando o Clustering",
-                "sidebar_label": "1. Configurando o Clustering",
-                "hide_table_of_contents": true
-              },
-              "sidebar": "clusteringautomation",
-              "next": {
-                "title": "2. Análise dos Resultados",
-                "permalink": "/playbooks/playbooks/clustering-automation/guide/results"
-              }
-            },
-            {
-              "unversionedId": "guide/playbook",
-              "id": "guide/playbook",
-              "title": "4. Playbook",
-              "description": "Introdução",
-              "source": "@site/playbooks/clustering-automation/guide/playbook.md",
-              "sourceDirName": "guide",
-              "slug": "/guide/playbook",
-              "permalink": "/playbooks/playbooks/clustering-automation/guide/playbook",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "id": "playbook",
-                "title": "4. Playbook",
-                "sidebar_label": "4. Playbook",
+                "title": "2. Configurando o Clustering",
+                "sidebar_label": "2. Configurando o Clustering",
                 "hide_table_of_contents": true
               },
               "sidebar": "clusteringautomation",
               "previous": {
-                "title": "3. Quantificar o Valor e Gerar Recomendações",
-                "permalink": "/playbooks/playbooks/clustering-automation/guide/recommendation"
+                "title": "1. Preparando o Ambiente",
+                "permalink": "/playbooks/playbooks/clustering-automation/guide/preparacao"
+              },
+              "next": {
+                "title": "3. Análise dos Resultados",
+                "permalink": "/playbooks/playbooks/clustering-automation/guide/results"
+              }
+            },
+            {
+              "unversionedId": "guide/preparacao",
+              "id": "guide/preparacao",
+              "title": "1. Preparando o Ambiente",
+              "description": "Introdução",
+              "source": "@site/playbooks/clustering-automation/guide/01-preparacao.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/preparacao",
+              "permalink": "/playbooks/playbooks/clustering-automation/guide/preparacao",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "preparacao",
+                "title": "1. Preparando o Ambiente",
+                "sidebar_label": "1. Preparando o Ambiente",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "clusteringautomation",
+              "next": {
+                "title": "2. Configurando o Clustering",
+                "permalink": "/playbooks/playbooks/clustering-automation/guide/clustering"
+              }
+            },
+            {
+              "unversionedId": "guide/recommendation",
+              "id": "guide/recommendation",
+              "title": "4. Quantificar o Valor e Gerar Recomendações",
+              "description": "Introdução",
+              "source": "@site/playbooks/clustering-automation/guide/04-recommendation.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/recommendation",
+              "permalink": "/playbooks/playbooks/clustering-automation/guide/recommendation",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "recommendation",
+                "title": "4. Quantificar o Valor e Gerar Recomendações",
+                "sidebar_label": "4. Quantificar o Valor e Gerar Recomendações",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "clusteringautomation",
+              "previous": {
+                "title": "3. Análise dos Resultados",
+                "permalink": "/playbooks/playbooks/clustering-automation/guide/results"
               },
               "next": {
                 "title": "Baixar Guia do Playbook em PDF",
@@ -100,60 +130,31 @@
               }
             },
             {
-              "unversionedId": "guide/recommendation",
-              "id": "guide/recommendation",
-              "title": "3. Quantificar o Valor e Gerar Recomendações",
-              "description": "Introdução",
-              "source": "@site/playbooks/clustering-automation/guide/03-recommendation.md",
-              "sourceDirName": "guide",
-              "slug": "/guide/recommendation",
-              "permalink": "/playbooks/playbooks/clustering-automation/guide/recommendation",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "id": "recommendation",
-                "title": "3. Quantificar o Valor e Gerar Recomendações",
-                "sidebar_label": "3. Quantificar o Valor e Gerar Recomendações",
-                "hide_table_of_contents": true
-              },
-              "sidebar": "clusteringautomation",
-              "previous": {
-                "title": "2. Análise dos Resultados",
-                "permalink": "/playbooks/playbooks/clustering-automation/guide/results"
-              },
-              "next": {
-                "title": "4. Playbook",
-                "permalink": "/playbooks/playbooks/clustering-automation/guide/playbook"
-              }
-            },
-            {
               "unversionedId": "guide/results",
               "id": "guide/results",
-              "title": "2. Análise dos Resultados com Clustering Recommendations Utility",
+              "title": "3. Análise dos Resultados com Clustering Recommendations Utility",
               "description": "Download do Clustering Recommendations Utility",
-              "source": "@site/playbooks/clustering-automation/guide/02-results.md",
+              "source": "@site/playbooks/clustering-automation/guide/03-results.md",
               "sourceDirName": "guide",
               "slug": "/guide/results",
               "permalink": "/playbooks/playbooks/clustering-automation/guide/results",
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "id": "results",
-                "title": "2. Análise dos Resultados com Clustering Recommendations Utility",
-                "sidebar_label": "2. Análise dos Resultados",
+                "title": "3. Análise dos Resultados com Clustering Recommendations Utility",
+                "sidebar_label": "3. Análise dos Resultados",
                 "hide_table_of_contents": true
               },
               "sidebar": "clusteringautomation",
               "previous": {
-                "title": "1. Configurando o Clustering",
+                "title": "2. Configurando o Clustering",
                 "permalink": "/playbooks/playbooks/clustering-automation/guide/clustering"
               },
               "next": {
-                "title": "3. Quantificar o Valor e Gerar Recomendações",
+                "title": "4. Quantificar o Valor e Gerar Recomendações",
                 "permalink": "/playbooks/playbooks/clustering-automation/guide/recommendation"
               }
             },
@@ -176,8 +177,8 @@
               },
               "sidebar": "clusteringautomation",
               "previous": {
-                "title": "4. Playbook",
-                "permalink": "/playbooks/playbooks/clustering-automation/guide/playbook"
+                "title": "4. Quantificar o Valor e Gerar Recomendações",
+                "permalink": "/playbooks/playbooks/clustering-automation/guide/recommendation"
               }
             },
             {
@@ -205,6 +206,10 @@
             "clusteringautomation": [
               {
                 "type": "doc",
+                "id": "guide/preparacao"
+              },
+              {
+                "type": "doc",
                 "id": "guide/clustering"
               },
               {
@@ -214,10 +219,6 @@
               {
                 "type": "doc",
                 "id": "guide/recommendation"
-              },
-              {
-                "type": "doc",
-                "id": "guide/playbook"
               },
               {
                 "type": "doc",

@@ -1,7 +1,7 @@
 ---
 id: results
-title: "2. Análise dos Resultados com Clustering Recommendations Utility"
-sidebar_label: "2. Análise dos Resultados"
+title: "3. Análise dos Resultados com Clustering Recommendations Utility"
+sidebar_label: "3. Análise dos Resultados"
 hide_table_of_contents: true
 ---
 

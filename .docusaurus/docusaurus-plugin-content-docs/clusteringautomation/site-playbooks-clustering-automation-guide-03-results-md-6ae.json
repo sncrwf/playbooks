@@ -1,7 +1,7 @@
 {
   "unversionedId": "guide/results",
   "id": "guide/results",
-  "title": "2. Análise dos Resultados com Clustering Recommendations Utility",
+  "title": "3. Análise dos Resultados com Clustering Recommendations Utility",
   "description": "Download do Clustering Recommendations Utility",
   "source": "@site/playbooks/clustering-automation/guide/03-results.md",
   "sourceDirName": "guide",
@@ -13,17 +13,17 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "id": "results",
-    "title": "2. Análise dos Resultados com Clustering Recommendations Utility",
-    "sidebar_label": "2. Análise dos Resultados",
+    "title": "3. Análise dos Resultados com Clustering Recommendations Utility",
+    "sidebar_label": "3. Análise dos Resultados",
     "hide_table_of_contents": true
   },
   "sidebar": "clusteringautomation",
   "previous": {
-    "title": "1. Configurando o Clustering",
+    "title": "2. Configurando o Clustering",
     "permalink": "/playbooks/playbooks/clustering-automation/guide/clustering"
   },
   "next": {
-    "title": "Baixar Guia do Laboratório em PDF",
-    "permalink": "/playbooks/playbooks/clustering-automation/lab-guide-pdf"
+    "title": "4. Quantificar o Valor e Gerar Recomendações",
+    "permalink": "/playbooks/playbooks/clustering-automation/guide/recommendation"
   }
 }

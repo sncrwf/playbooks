@@ -17,7 +17,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/playbooks/playbooks/clustering-automation",
-          "mainDocId": "guide/clustering",
+          "mainDocId": "guide/preparacao",
           "docs": [
             {
               "id": "CHANGELOG",
@@ -29,8 +29,8 @@
               "sidebar": "clusteringautomation"
             },
             {
-              "id": "guide/playbook",
-              "path": "/playbooks/playbooks/clustering-automation/guide/playbook",
+              "id": "guide/preparacao",
+              "path": "/playbooks/playbooks/clustering-automation/guide/preparacao",
               "sidebar": "clusteringautomation"
             },
             {
@@ -57,8 +57,8 @@
           "sidebars": {
             "clusteringautomation": {
               "link": {
-                "path": "/playbooks/playbooks/clustering-automation/guide/clustering",
-                "label": "guide/clustering"
+                "path": "/playbooks/playbooks/clustering-automation/guide/preparacao",
+                "label": "guide/preparacao"
               }
             }
           }

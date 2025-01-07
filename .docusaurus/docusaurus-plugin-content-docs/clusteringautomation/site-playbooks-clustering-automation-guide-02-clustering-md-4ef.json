@@ -1,0 +1,29 @@
+{
+  "unversionedId": "guide/clustering",
+  "id": "guide/clustering",
+  "title": "2. Configurando o Clustering",
+  "description": "Clustering de Inteligência Preditiva",
+  "source": "@site/playbooks/clustering-automation/guide/02-clustering.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/clustering",
+  "permalink": "/playbooks/playbooks/clustering-automation/guide/clustering",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "clustering",
+    "title": "2. Configurando o Clustering",
+    "sidebar_label": "2. Configurando o Clustering",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "clusteringautomation",
+  "previous": {
+    "title": "1. Preparando o Ambiente",
+    "permalink": "/playbooks/playbooks/clustering-automation/guide/preparacao"
+  },
+  "next": {
+    "title": "3. Análise dos Resultados",
+    "permalink": "/playbooks/playbooks/clustering-automation/guide/results"
+  }
+}
