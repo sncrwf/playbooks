@@ -12,43 +12,43 @@
       {
         "type": "link",
         "label": "1. Preparação para o Workshop",
-        "href": "/playbooks/playbooks/itsm-manual-automation/guide/preparation",
+        "href": "/playbooks/playbooks/manual-automation/guide/preparation",
         "docId": "guide/preparation"
       },
       {
         "type": "link",
         "label": "2. Definição das Métricas e Origem dos Dados",
-        "href": "/playbooks/playbooks/itsm-manual-automation/guide/definition",
+        "href": "/playbooks/playbooks/manual-automation/guide/definition",
         "docId": "guide/definition"
       },
       {
         "type": "link",
         "label": "3. Criação de Reports e Dashboards",
-        "href": "/playbooks/playbooks/itsm-manual-automation/guide/dashboards",
+        "href": "/playbooks/playbooks/manual-automation/guide/dashboards",
         "docId": "guide/dashboards"
       },
       {
         "type": "link",
         "label": "4. Análise dos Relatórios e Dados",
-        "href": "/playbooks/playbooks/itsm-manual-automation/guide/analysis",
+        "href": "/playbooks/playbooks/manual-automation/guide/analysis",
         "docId": "guide/analysis"
       },
       {
         "type": "link",
         "label": "5. Priorização dos Findings e Análise de ROI",
-        "href": "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi",
+        "href": "/playbooks/playbooks/manual-automation/guide/prioritization-roi",
         "docId": "guide/prioritization-roi"
       },
       {
         "type": "link",
         "label": "6. Plano de Ação para Endereçar as Automações",
-        "href": "/playbooks/playbooks/itsm-manual-automation/guide/action-plan",
+        "href": "/playbooks/playbooks/manual-automation/guide/action-plan",
         "docId": "guide/action-plan"
       },
       {
         "type": "link",
         "label": "Baixar Guia do Playbook em PDF",
-        "href": "/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf",
+        "href": "/playbooks/playbooks/manual-automation/playbook-guide-pdf",
         "docId": "playbook-guide-pdf"
       }
     ]

@@ -1,136 +1,93 @@
 {
-  "/playbooks/__docusaurus/debug-b6b": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/playbooks/search-77b": {
+    "__comp": "1a4e3797",
     "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
-    }
-  },
-  "/playbooks/__docusaurus/debug/config-dc3": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
-    }
-  },
-  "/playbooks/__docusaurus/debug/content-749": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
-    },
-    "allContent": "allContent---playbooks-docusaurus-debug-content-246-70d"
-  },
-  "/playbooks/__docusaurus/debug/globalData-221": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
-    }
-  },
-  "/playbooks/__docusaurus/debug/metadata-886": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
-    }
-  },
-  "/playbooks/__docusaurus/debug/registry-ca9": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
-    }
-  },
-  "/playbooks/__docusaurus/debug/routes-bb7": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---playbooks-docusaurus-debug-8-e-0-7e6"
-    }
-  },
-  "/playbooks/search-e78": {
-    "__comp": "__comp---theme-search-page-1-a-4-d6f",
-    "__context": {
-      "plugin": "plugin---playbooks-searchc-7-c-214"
+      "plugin": "80887bf7"
     }
   },
   "/playbooks/playbooks/clustering-automation-a14": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---playbooks-playbooks-clustering-automationaf-1-cf2"
+      "plugin": "7c33b21d"
     },
-    "versionMetadata": "versionMetadata---playbooks-playbooks-clustering-automationac-8-471"
+    "versionMetadata": "ac873665"
   },
   "/playbooks/playbooks/clustering-automation/CHANGELOG-bc9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-changelog-273-c6f"
+    "__comp": "17896441",
+    "content": "2732b4e2"
   },
   "/playbooks/playbooks/clustering-automation/guide/clustering-249": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-guide-clustering-4-ef-872"
+    "__comp": "17896441",
+    "content": "4efa968f"
   },
   "/playbooks/playbooks/clustering-automation/guide/preparacao-f85": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-guide-clustering-169-fd9"
+    "__comp": "17896441",
+    "content": "1694d2c5"
   },
   "/playbooks/playbooks/clustering-automation/guide/recommendation-7db": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-guide-recommendation-648-5a4"
+    "__comp": "17896441",
+    "content": "648575ef"
   },
   "/playbooks/playbooks/clustering-automation/guide/results-0b2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-guide-results-6-ae-177"
+    "__comp": "17896441",
+    "content": "6ae6e1cb"
   },
   "/playbooks/playbooks/clustering-automation/playbook-guide-pdf-db1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-playbook-guide-pdfd-33-fc4"
+    "__comp": "17896441",
+    "content": "d33e9d60"
   },
   "/playbooks/playbooks/clustering-automation/Survey-006": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-clustering-automation-survey-1-b-3-ff6"
+    "__comp": "17896441",
+    "content": "1b3bf927"
   },
-  "/playbooks/playbooks/itsm-manual-automation-8a5": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+  "/playbooks/playbooks/manual-automation-29a": {
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---playbooks-playbooks-itsm-manual-automationb-38-9dd"
+      "plugin": "5c2ace31"
     },
-    "versionMetadata": "versionMetadata---playbooks-playbooks-itsm-manual-automationc-29-b57"
+    "versionMetadata": "c2942fe4"
   },
-  "/playbooks/playbooks/itsm-manual-automation/CHANGELOG-ffe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-changelog-3-c-6-017"
+  "/playbooks/playbooks/manual-automation/CHANGELOG-18a": {
+    "__comp": "17896441",
+    "content": "0db72fc7"
   },
-  "/playbooks/playbooks/itsm-manual-automation/guide/action-plan-bb7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-action-planea-8-769"
+  "/playbooks/playbooks/manual-automation/guide/action-plan-6d6": {
+    "__comp": "17896441",
+    "content": "ef5daa9c"
   },
-  "/playbooks/playbooks/itsm-manual-automation/guide/analysis-ab7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-analysis-20-f-2cb"
+  "/playbooks/playbooks/manual-automation/guide/analysis-0b3": {
+    "__comp": "17896441",
+    "content": "bf1f29bd"
   },
-  "/playbooks/playbooks/itsm-manual-automation/guide/dashboards-0e0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-dashboardse-55-1ed"
+  "/playbooks/playbooks/manual-automation/guide/dashboards-104": {
+    "__comp": "17896441",
+    "content": "e8e7d31a"
   },
-  "/playbooks/playbooks/itsm-manual-automation/guide/definition-f64": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-definition-60-d-47d"
+  "/playbooks/playbooks/manual-automation/guide/definition-0dc": {
+    "__comp": "17896441",
+    "content": "451de992"
   },
-  "/playbooks/playbooks/itsm-manual-automation/guide/preparation-aea": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-preparation-724-7ab"
+  "/playbooks/playbooks/manual-automation/guide/preparation-4bf": {
+    "__comp": "17896441",
+    "content": "b021656b"
   },
-  "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi-0af": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-guide-prioritization-roidc-3-436"
+  "/playbooks/playbooks/manual-automation/guide/prioritization-roi-73f": {
+    "__comp": "17896441",
+    "content": "8002081d"
   },
-  "/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf-ef8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-playbook-guide-pdf-224-961"
+  "/playbooks/playbooks/manual-automation/playbook-guide-pdf-cd9": {
+    "__comp": "17896441",
+    "content": "31df21b9"
   },
-  "/playbooks/playbooks/itsm-manual-automation/Survey-23b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---playbooks-playbooks-itsm-manual-automation-survey-14-d-5ac"
+  "/playbooks/playbooks/manual-automation/Survey-954": {
+    "__comp": "17896441",
+    "content": "826ac086"
   },
-  "/playbooks/-d85": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+  "/playbooks/-980": {
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---playbooks-bc-5-06a"
+      "plugin": "84780710"
     },
-    "config": "config---playbooks-5-e-9-4e9"
+    "config": "5e9f5e1a"
   }
 }

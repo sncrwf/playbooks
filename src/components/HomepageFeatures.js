@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import Link from '@docusaurus/Link';
-import { faArrowRight, faDiagramProject, faFileInvoice, faGaugeHigh, faHouseLaptop, faHouseUser, faIdCardClip, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faBrain, faDiagramProject, faFileInvoice, faGaugeHigh, faHouseLaptop, faHouseUser, faIdCardClip, faMagnifyingGlass, faMagnifyingGlassChart, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileCode, faUsers, faCog, faPlane, faRobot, faTruck, faHeadset } from '@fortawesome/free-solid-svg-icons';
@@ -47,26 +47,26 @@ export default HomepageFeatures;
 const FeatureList = [
 
   {
-    title: 'ITSM Clustering-Driven Automation Assessment',
+    title: 'Clustering-Driven Automation Assessment',
     icon: faDiagramProject,
     description: (
       <>
-      <div class="button-homepage-utah">⚙️ Automation Engine</div><br/>Um processo orientado por dados que utiliza clustering para identificar, consolidar e priorizar oportunidades de automação.<br/>
+      <div class="button-homepage-vancouver">⚙️ ITSM</div><br/>Um processo orientado por dados que utiliza clustering para identificar, consolidar e priorizar oportunidades de automação.<br/>
       </>
     ),
-    to: './playbooks/clustering-automation/guide/clustering',
+    to: './playbooks/clustering-automation/guide/preparacao',
     target: '_self',
   },
 
   {
-    title: 'ITSM - Report-Driven Automation Assessment',
-    icon: faGaugeHigh,
+    title: 'Report-Driven Automation Assessment',
+    icon: faMagnifyingGlassChart,
     description: (
       <>
-      <div class="button-homepage-utah">⚙️ Automation Engine</div><br/>Um processo orientado por dados que utiliza KPIs, Report e Dashboards para identificar, consolidar e priorizar oportunidades de automação.<br/>
+      <div class="button-homepage-vancouver">⚙️ ITSM</div><br/>Um processo orientado por dados que utiliza KPIs, Report e Dashboards para identificar, consolidar e priorizar oportunidades de automação.<br/>
       </>
     ),
-    to: './playbooks/itsm-manual-automation/guide/preparation',
+    to: './playbooks/manual-automation/guide/preparation',
     target: '_self',
   },
 

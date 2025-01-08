@@ -67,64 +67,64 @@
       "breadcrumbs": false
     },
     "itsmmanualautomation": {
-      "path": "/playbooks/playbooks/itsm-manual-automation",
+      "path": "/playbooks/playbooks/manual-automation",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/playbooks/playbooks/itsm-manual-automation",
+          "path": "/playbooks/playbooks/manual-automation",
           "mainDocId": "guide/preparation",
           "docs": [
             {
               "id": "CHANGELOG",
-              "path": "/playbooks/playbooks/itsm-manual-automation/CHANGELOG"
+              "path": "/playbooks/playbooks/manual-automation/CHANGELOG"
             },
             {
               "id": "guide/action-plan",
-              "path": "/playbooks/playbooks/itsm-manual-automation/guide/action-plan",
+              "path": "/playbooks/playbooks/manual-automation/guide/action-plan",
               "sidebar": "clusteringautomation"
             },
             {
               "id": "guide/analysis",
-              "path": "/playbooks/playbooks/itsm-manual-automation/guide/analysis",
+              "path": "/playbooks/playbooks/manual-automation/guide/analysis",
               "sidebar": "clusteringautomation"
             },
             {
               "id": "guide/dashboards",
-              "path": "/playbooks/playbooks/itsm-manual-automation/guide/dashboards",
+              "path": "/playbooks/playbooks/manual-automation/guide/dashboards",
               "sidebar": "clusteringautomation"
             },
             {
               "id": "guide/definition",
-              "path": "/playbooks/playbooks/itsm-manual-automation/guide/definition",
+              "path": "/playbooks/playbooks/manual-automation/guide/definition",
               "sidebar": "clusteringautomation"
             },
             {
               "id": "guide/preparation",
-              "path": "/playbooks/playbooks/itsm-manual-automation/guide/preparation",
+              "path": "/playbooks/playbooks/manual-automation/guide/preparation",
               "sidebar": "clusteringautomation"
             },
             {
               "id": "guide/prioritization-roi",
-              "path": "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi",
+              "path": "/playbooks/playbooks/manual-automation/guide/prioritization-roi",
               "sidebar": "clusteringautomation"
             },
             {
               "id": "playbook-guide-pdf",
-              "path": "/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf",
+              "path": "/playbooks/playbooks/manual-automation/playbook-guide-pdf",
               "sidebar": "clusteringautomation"
             },
             {
               "id": "Survey",
-              "path": "/playbooks/playbooks/itsm-manual-automation/Survey"
+              "path": "/playbooks/playbooks/manual-automation/Survey"
             }
           ],
           "draftIds": [],
           "sidebars": {
             "clusteringautomation": {
               "link": {
-                "path": "/playbooks/playbooks/itsm-manual-automation/guide/preparation",
+                "path": "/playbooks/playbooks/manual-automation/guide/preparation",
                 "label": "guide/preparation"
               }
             }

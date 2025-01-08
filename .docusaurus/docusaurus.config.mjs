@@ -32,17 +32,17 @@ export default {
         "path": "playbooks/clustering-automation",
         "id": "clusteringautomation",
         "routeBasePath": "playbooks/clustering-automation",
-        "sidebarPath": "/Users/rafael.messias/Documents/GitHub/playbooks/playbooks/clustering-automation/sidebar.js",
+        "sidebarPath": "/Users/lucasalmeida/Documents/GitHub/playbooks/playbooks/clustering-automation/sidebar.js",
         "breadcrumbs": false
       }
     ],
     [
       "@docusaurus/plugin-content-docs",
       {
-        "path": "playbooks/itsm-manual-automation",
+        "path": "playbooks/manual-automation",
         "id": "itsmmanualautomation",
-        "routeBasePath": "playbooks/itsm-manual-automation",
-        "sidebarPath": "/Users/rafael.messias/Documents/GitHub/playbooks/playbooks/itsm-manual-automation/sidebar.js",
+        "routeBasePath": "playbooks/manual-automation",
+        "sidebarPath": "/Users/lucasalmeida/Documents/GitHub/playbooks/playbooks/manual-automation/sidebar.js",
         "breadcrumbs": false
       }
     ]
@@ -54,7 +54,7 @@ export default {
         "docs": false,
         "blog": false,
         "theme": {
-          "customCss": "/Users/rafael.messias/Documents/GitHub/playbooks/src/css/custom.scss"
+          "customCss": "/Users/lucasalmeida/Documents/GitHub/playbooks/src/css/custom.scss"
         },
         "gtag": {
           "trackingID": "G-P6HQJZPT0C"

@@ -42,7 +42,7 @@ const config = {
     },
 
     /*
-     * TELEWORK CASE MGMT 101
+     * CLUSTERING AUTOMATION
      */
     [
       "@docusaurus/plugin-content-docs",
@@ -56,15 +56,15 @@ const config = {
     ],
 
     /*
-     * ITSM MANUAL AUTOMATION
+     * MANUAL AUTOMATION
      */
     [
       "@docusaurus/plugin-content-docs",
       {
-        path: "playbooks/itsm-manual-automation",
+        path: "playbooks/manual-automation",
         id: "itsmmanualautomation",
-        routeBasePath: "playbooks/itsm-manual-automation",
-        sidebarPath: require.resolve("./playbooks/itsm-manual-automation/sidebar.js"),
+        routeBasePath: "playbooks/manual-automation",
+        sidebarPath: require.resolve("./playbooks/manual-automation/sidebar.js"),
         breadcrumbs: false,
       },
     ],
