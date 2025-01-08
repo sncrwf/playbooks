@@ -2,7 +2,7 @@
   "unversionedId": "guide/definition",
   "id": "guide/definition",
   "title": "2. Definição das Métricas e Origem dos Dados",
-  "description": "",
+  "description": "KPIs dos Processos de Incidente e Requisição",
   "source": "@site/playbooks/itsm-manual-automation/guide/02-definition.md",
   "sourceDirName": "guide",
   "slug": "/guide/definition",

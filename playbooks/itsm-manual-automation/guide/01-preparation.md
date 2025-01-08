@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 ## Introdução
 
-Este guia descreve como configurar e gerar **Relatórios e Dashboards** para identificar candidatos de automação utilizando dados do cliente e ilustrar o valor não reconhecido do ITSM.
+Este guia descreve como configurar e gerar **Relatórios e Dashboards** para identificar candidatos de automação, priorizando, analisando potencial retorno de investimento e criando um plano de ação utilizando dados reais do cliente.
 
 ## Objetivo
 
@@ -18,44 +18,12 @@ Este guia descreve como configurar e gerar **Relatórios e Dashboards** para ide
 - Priorizar e **projetar o ROI dos TOP ofensores**
 - Criar **Plano de Ação para Automatizar** os principais Casos encontrados
 
-## KPIs dos Processos de Incidente e Requisição
+## Metodologia de Trabalho
 
-Entendemos que os indicadores a seguir podem trazer uma visão...
+Neste workshop, utilizaremos as melhores práticas de KPIs do ITIL para guiar você em uma metodologia detalhada e estruturada, passo a passo, que inclui: identificação dos KPIs mais relevantes, análise e entendimento dos dados, e a configuração de relatórios e dashboards personalizados.
 
-### Indicadores de Incidentes
-- **Volume de Incidentes por Tipo**
-  Identifica os tipos de incidentes mais frequentes.
-- **Tempo Médio de Resolução (MTTR - Mean Time to Resolution)**
-  Incidentes que levam mais tempo para serem resolvidos são bons candidatos para automação.
-- **Taxa de Reabertura de Incidentes**
-  Processos manuais que levam a resoluções incompletas ou erros são oportunidades para automação.
-- **Incidentes Fora do SLA**
-  Casos que frequentemente extrapolam os prazos de SLA.
-- **Impacto no Negócio (Critical Incident Volume)**
-  Número de incidentes classificados como críticos e seu impacto financeiro ou operacional.
-- **Incidentes por Canal de Entrada**
-  Identifica canais com maior volume (ex.: e-mail, telefone), que poderiam ser substituídos ou complementados por portais de autoatendimento ou chatbots.
-
-### Indicadores de Requisições
-- **Volume de Requisições por Tipo**
-  Ex.: solicitações de acesso, reset de senha, criação de usuários.
-- **Tempo Médio de Atendimento (TMA - Average Handling Time)**
-  Requisições com alta complexidade manual ou que demandam validações repetitivas.
-- **Custo por Requisição**
-  Requisições que representam altos custos devido ao volume ou tempo de execução.
-- **Taxa de Rejeição ou Devolução**
-  Casos onde erros na coleta de informações geram retrabalho.
-- **Taxa de Conclusão no Primeiro Contato (FCR - First Contact Resolution)**
-  Requisições que frequentemente requerem múltiplas interações.
-
-### Indicadores Operacionais Gerais
-- **Backlog de Incidentes/Requisições**
-  Identifica gargalos de operação.
-- **Percentual de Tarefas Automatizáveis**
-  Tarefas repetitivas ou baseadas em regras identificadas em logs ou workflows.
-  
-
-
+Com os dados consolidados, realizaremos uma análise aprofundada para identificar os principais ofensores operacionais, priorizando oportunidades de automação com base em critérios claros de ROI.
+**Ao final, além de termos um Dashboard como um novo ativo de valor para sua operação, desenvolveremos juntos um plano de ação concreto para implementar as automações planejadas, assegurando que o retorno sobre o investimento seja mensurável e alinhado às expectativas.**
 
 
 ---
