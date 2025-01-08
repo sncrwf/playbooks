@@ -1,0 +1,14 @@
+{
+  "unversionedId": "CHANGELOG",
+  "id": "CHANGELOG",
+  "title": "CHANGELOG",
+  "description": "Histórico",
+  "source": "@site/playbooks/itsm-manual-automation/CHANGELOG.md",
+  "sourceDirName": ".",
+  "slug": "/CHANGELOG",
+  "permalink": "/playbooks/playbooks/itsm-manual-automation/CHANGELOG",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

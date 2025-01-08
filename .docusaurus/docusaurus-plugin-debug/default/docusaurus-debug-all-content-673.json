@@ -28,9 +28,9 @@
           "tagsPath": "/playbooks/playbooks/clustering-automation/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/lucasalmeida/Documents/GitHub/playbooks/playbooks/clustering-automation/sidebar.js",
-          "contentPath": "/Users/lucasalmeida/Documents/GitHub/playbooks/playbooks/clustering-automation",
-          "contentPathLocalized": "/Users/lucasalmeida/Documents/GitHub/playbooks/i18n/en/docusaurus-plugin-content-docs-clusteringautomation/current",
+          "sidebarFilePath": "/Users/rafael.messias/Documents/GitHub/playbooks/playbooks/clustering-automation/sidebar.js",
+          "contentPath": "/Users/rafael.messias/Documents/GitHub/playbooks/playbooks/clustering-automation",
+          "contentPathLocalized": "/Users/rafael.messias/Documents/GitHub/playbooks/i18n/en/docusaurus-plugin-content-docs-clusteringautomation/current",
           "docs": [
             {
               "unversionedId": "CHANGELOG",
@@ -219,6 +219,286 @@
               {
                 "type": "doc",
                 "id": "guide/recommendation"
+              },
+              {
+                "type": "doc",
+                "id": "playbook-guide-pdf"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "itsmmanualautomation": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/playbooks/playbooks/itsm-manual-automation",
+          "tagsPath": "/playbooks/playbooks/itsm-manual-automation/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/rafael.messias/Documents/GitHub/playbooks/playbooks/itsm-manual-automation/sidebar.js",
+          "contentPath": "/Users/rafael.messias/Documents/GitHub/playbooks/playbooks/itsm-manual-automation",
+          "contentPathLocalized": "/Users/rafael.messias/Documents/GitHub/playbooks/i18n/en/docusaurus-plugin-content-docs-itsmmanualautomation/current",
+          "docs": [
+            {
+              "unversionedId": "CHANGELOG",
+              "id": "CHANGELOG",
+              "title": "CHANGELOG",
+              "description": "Histórico",
+              "source": "@site/playbooks/itsm-manual-automation/CHANGELOG.md",
+              "sourceDirName": ".",
+              "slug": "/CHANGELOG",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/CHANGELOG",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "guide/action-plan",
+              "id": "guide/action-plan",
+              "title": "6. Plano de Ação para Endereçar as Automações",
+              "description": "Introdução",
+              "source": "@site/playbooks/itsm-manual-automation/guide/06-action-plan.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/action-plan",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/action-plan",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "id": "action-plan",
+                "title": "6. Plano de Ação para Endereçar as Automações",
+                "sidebar_label": "6. Plano de Ação para Endereçar as Automações",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "clusteringautomation",
+              "previous": {
+                "title": "5. Priorização dos Findings e Análise de ROI",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi"
+              },
+              "next": {
+                "title": "Baixar Guia do Playbook em PDF",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf"
+              }
+            },
+            {
+              "unversionedId": "guide/analysis",
+              "id": "guide/analysis",
+              "title": "4. Análise dos Relatórios e Dados",
+              "description": "Introdução",
+              "source": "@site/playbooks/itsm-manual-automation/guide/04-analysis.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/analysis",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/analysis",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "analysis",
+                "title": "4. Análise dos Relatórios e Dados",
+                "sidebar_label": "4. Análise dos Relatórios e Dados",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "clusteringautomation",
+              "previous": {
+                "title": "3. Criação de Reports e Dashboards",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/dashboards"
+              },
+              "next": {
+                "title": "5. Priorização dos Findings e Análise de ROI",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi"
+              }
+            },
+            {
+              "unversionedId": "guide/dashboards",
+              "id": "guide/dashboards",
+              "title": "3. Criação de Reports e Dashboards",
+              "description": "",
+              "source": "@site/playbooks/itsm-manual-automation/guide/03-dashboards.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/dashboards",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/dashboards",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "dashboards",
+                "title": "3. Criação de Reports e Dashboards",
+                "sidebar_label": "3. Criação de Reports e Dashboards",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "clusteringautomation",
+              "previous": {
+                "title": "2. Definição das Métricas e Origem dos Dados",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/definition"
+              },
+              "next": {
+                "title": "4. Análise dos Relatórios e Dados",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/analysis"
+              }
+            },
+            {
+              "unversionedId": "guide/definition",
+              "id": "guide/definition",
+              "title": "2. Definição das Métricas e Origem dos Dados",
+              "description": "KPIs dos Processos de Incidente e Requisição",
+              "source": "@site/playbooks/itsm-manual-automation/guide/02-definition.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/definition",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/definition",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "definition",
+                "title": "2. Definição das Métricas e Origem dos Dados",
+                "sidebar_label": "2. Definição das Métricas e Origem dos Dados",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "clusteringautomation",
+              "previous": {
+                "title": "1. Preparação para o Workshop",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/preparation"
+              },
+              "next": {
+                "title": "3. Criação de Reports e Dashboards",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/dashboards"
+              }
+            },
+            {
+              "unversionedId": "guide/preparation",
+              "id": "guide/preparation",
+              "title": "1. Preparação para Workshop",
+              "description": "Introdução",
+              "source": "@site/playbooks/itsm-manual-automation/guide/01-preparation.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/preparation",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/preparation",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "preparation",
+                "title": "1. Preparação para Workshop",
+                "sidebar_label": "1. Preparação para o Workshop",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "clusteringautomation",
+              "next": {
+                "title": "2. Definição das Métricas e Origem dos Dados",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/definition"
+              }
+            },
+            {
+              "unversionedId": "guide/prioritization-roi",
+              "id": "guide/prioritization-roi",
+              "title": "5. Priorização dos Findings e Análise de ROI",
+              "description": "Introdução",
+              "source": "@site/playbooks/itsm-manual-automation/guide/05-prioritization-roi.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/prioritization-roi",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "id": "prioritization-roi",
+                "title": "5. Priorização dos Findings e Análise de ROI",
+                "sidebar_label": "5. Priorização dos Findings e Análise de ROI",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "clusteringautomation",
+              "previous": {
+                "title": "4. Análise dos Relatórios e Dados",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/analysis"
+              },
+              "next": {
+                "title": "6. Plano de Ação para Endereçar as Automações",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/action-plan"
+              }
+            },
+            {
+              "unversionedId": "playbook-guide-pdf",
+              "id": "playbook-guide-pdf",
+              "title": "Baixar Guia do Playbook em PDF",
+              "description": "Clique aqui para baixar o Guia do Laboratório em PDF",
+              "source": "@site/playbooks/itsm-manual-automation/lab-guide-pdf.md",
+              "sourceDirName": ".",
+              "slug": "/playbook-guide-pdf",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "playbook-guide-pdf",
+                "title": "Baixar Guia do Playbook em PDF",
+                "draft": false
+              },
+              "sidebar": "clusteringautomation",
+              "previous": {
+                "title": "6. Plano de Ação para Endereçar as Automações",
+                "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/action-plan"
+              }
+            },
+            {
+              "unversionedId": "Survey",
+              "id": "Survey",
+              "title": "Valorizamos Seu Feedback!",
+              "description": "Ajude-nos a Melhorar Sua Experiência de Aprendizado",
+              "source": "@site/playbooks/itsm-manual-automation/06-Survey.md",
+              "sourceDirName": ".",
+              "slug": "/Survey",
+              "permalink": "/playbooks/playbooks/itsm-manual-automation/Survey",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "title": "Valorizamos Seu Feedback!",
+                "sidebar_label": "Pesquisa",
+                "hide_table_of_contents": true
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "clusteringautomation": [
+              {
+                "type": "doc",
+                "id": "guide/preparation"
+              },
+              {
+                "type": "doc",
+                "id": "guide/definition"
+              },
+              {
+                "type": "doc",
+                "id": "guide/dashboards"
+              },
+              {
+                "type": "doc",
+                "id": "guide/analysis"
+              },
+              {
+                "type": "doc",
+                "id": "guide/prioritization-roi"
+              },
+              {
+                "type": "doc",
+                "id": "guide/action-plan"
               },
               {
                 "type": "doc",

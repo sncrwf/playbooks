@@ -1,0 +1,29 @@
+{
+  "unversionedId": "guide/dashboards",
+  "id": "guide/dashboards",
+  "title": "3. Criação de Reports e Dashboards",
+  "description": "",
+  "source": "@site/playbooks/itsm-manual-automation/guide/03-dashboards.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/dashboards",
+  "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/dashboards",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "dashboards",
+    "title": "3. Criação de Reports e Dashboards",
+    "sidebar_label": "3. Criação de Reports e Dashboards",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "clusteringautomation",
+  "previous": {
+    "title": "2. Definição das Métricas e Origem dos Dados",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/definition"
+  },
+  "next": {
+    "title": "4. Análise dos Relatórios e Dados",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/analysis"
+  }
+}

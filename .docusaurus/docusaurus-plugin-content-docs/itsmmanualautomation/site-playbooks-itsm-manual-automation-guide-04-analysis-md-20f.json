@@ -1,0 +1,29 @@
+{
+  "unversionedId": "guide/analysis",
+  "id": "guide/analysis",
+  "title": "4. Análise dos Relatórios e Dados",
+  "description": "Introdução",
+  "source": "@site/playbooks/itsm-manual-automation/guide/04-analysis.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/analysis",
+  "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/analysis",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "analysis",
+    "title": "4. Análise dos Relatórios e Dados",
+    "sidebar_label": "4. Análise dos Relatórios e Dados",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "clusteringautomation",
+  "previous": {
+    "title": "3. Criação de Reports e Dashboards",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/dashboards"
+  },
+  "next": {
+    "title": "5. Priorização dos Findings e Análise de ROI",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi"
+  }
+}

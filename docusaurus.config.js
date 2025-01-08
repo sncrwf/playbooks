@@ -52,10 +52,25 @@ const config = {
         routeBasePath: "playbooks/clustering-automation",
         sidebarPath: require.resolve("./playbooks/clustering-automation/sidebar.js"),
         breadcrumbs: false,
+      }
+    ],
+
+    /*
+     * ITSM MANUAL AUTOMATION
+     */
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        path: "playbooks/itsm-manual-automation",
+        id: "itsmmanualautomation",
+        routeBasePath: "playbooks/itsm-manual-automation",
+        sidebarPath: require.resolve("./playbooks/itsm-manual-automation/sidebar.js"),
+        breadcrumbs: false,
       },
     ],
-  
-    ],
+
+  ],
+
 
   presets: [
     [

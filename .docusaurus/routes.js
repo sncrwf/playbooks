@@ -4,42 +4,42 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/playbooks/__docusaurus/debug',
-    component: ComponentCreator('/playbooks/__docusaurus/debug', '474'),
+    component: ComponentCreator('/playbooks/__docusaurus/debug', 'b6b'),
     exact: true
   },
   {
     path: '/playbooks/__docusaurus/debug/config',
-    component: ComponentCreator('/playbooks/__docusaurus/debug/config', '7c8'),
+    component: ComponentCreator('/playbooks/__docusaurus/debug/config', 'dc3'),
     exact: true
   },
   {
     path: '/playbooks/__docusaurus/debug/content',
-    component: ComponentCreator('/playbooks/__docusaurus/debug/content', '6c6'),
+    component: ComponentCreator('/playbooks/__docusaurus/debug/content', '749'),
     exact: true
   },
   {
     path: '/playbooks/__docusaurus/debug/globalData',
-    component: ComponentCreator('/playbooks/__docusaurus/debug/globalData', 'f40'),
+    component: ComponentCreator('/playbooks/__docusaurus/debug/globalData', '221'),
     exact: true
   },
   {
     path: '/playbooks/__docusaurus/debug/metadata',
-    component: ComponentCreator('/playbooks/__docusaurus/debug/metadata', 'a8e'),
+    component: ComponentCreator('/playbooks/__docusaurus/debug/metadata', '886'),
     exact: true
   },
   {
     path: '/playbooks/__docusaurus/debug/registry',
-    component: ComponentCreator('/playbooks/__docusaurus/debug/registry', 'ded'),
+    component: ComponentCreator('/playbooks/__docusaurus/debug/registry', 'ca9'),
     exact: true
   },
   {
     path: '/playbooks/__docusaurus/debug/routes',
-    component: ComponentCreator('/playbooks/__docusaurus/debug/routes', '716'),
+    component: ComponentCreator('/playbooks/__docusaurus/debug/routes', 'bb7'),
     exact: true
   },
   {
     path: '/playbooks/search',
-    component: ComponentCreator('/playbooks/search', '77b'),
+    component: ComponentCreator('/playbooks/search', 'e78'),
     exact: true
   },
   {
@@ -89,8 +89,66 @@ export default [
     ]
   },
   {
+    path: '/playbooks/playbooks/itsm-manual-automation',
+    component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation', '8a5'),
+    routes: [
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/CHANGELOG',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/CHANGELOG', 'ffe'),
+        exact: true
+      },
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/guide/action-plan',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/guide/action-plan', 'bb7'),
+        exact: true,
+        sidebar: "clusteringautomation"
+      },
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/guide/analysis',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/guide/analysis', 'ab7'),
+        exact: true,
+        sidebar: "clusteringautomation"
+      },
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/guide/dashboards',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/guide/dashboards', '0e0'),
+        exact: true,
+        sidebar: "clusteringautomation"
+      },
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/guide/definition',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/guide/definition', 'f64'),
+        exact: true,
+        sidebar: "clusteringautomation"
+      },
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/guide/preparation',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/guide/preparation', 'aea'),
+        exact: true,
+        sidebar: "clusteringautomation"
+      },
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi', '0af'),
+        exact: true,
+        sidebar: "clusteringautomation"
+      },
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/playbook-guide-pdf', 'ef8'),
+        exact: true,
+        sidebar: "clusteringautomation"
+      },
+      {
+        path: '/playbooks/playbooks/itsm-manual-automation/Survey',
+        component: ComponentCreator('/playbooks/playbooks/itsm-manual-automation/Survey', '23b'),
+        exact: true
+      }
+    ]
+  },
+  {
     path: '/playbooks/',
-    component: ComponentCreator('/playbooks/', '980'),
+    component: ComponentCreator('/playbooks/', 'd85'),
     exact: true
   },
   {

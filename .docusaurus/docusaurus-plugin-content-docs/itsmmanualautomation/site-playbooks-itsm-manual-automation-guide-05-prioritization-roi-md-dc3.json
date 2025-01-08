@@ -1,0 +1,29 @@
+{
+  "unversionedId": "guide/prioritization-roi",
+  "id": "guide/prioritization-roi",
+  "title": "5. Priorização dos Findings e Análise de ROI",
+  "description": "Introdução",
+  "source": "@site/playbooks/itsm-manual-automation/guide/05-prioritization-roi.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/prioritization-roi",
+  "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/prioritization-roi",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "prioritization-roi",
+    "title": "5. Priorização dos Findings e Análise de ROI",
+    "sidebar_label": "5. Priorização dos Findings e Análise de ROI",
+    "hide_table_of_contents": true
+  },
+  "sidebar": "clusteringautomation",
+  "previous": {
+    "title": "4. Análise dos Relatórios e Dados",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/analysis"
+  },
+  "next": {
+    "title": "6. Plano de Ação para Endereçar as Automações",
+    "permalink": "/playbooks/playbooks/itsm-manual-automation/guide/action-plan"
+  }
+}
