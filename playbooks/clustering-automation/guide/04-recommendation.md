@@ -1,7 +1,7 @@
 ---
 id: recommendation
-title: "3. Quantificar o Valor e Gerar Recomendações"
-sidebar_label: "3. Quantificar o Valor e Gerar Recomendações"
+title: "4. Quantificar o Valor e Gerar Recomendações"
+sidebar_label: "4. Quantificar o Valor e Gerar Recomendações"
 hide_table_of_contents: true
 ---
 

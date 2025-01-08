@@ -47,7 +47,7 @@ export default HomepageFeatures;
 const FeatureList = [
 
   {
-    title: 'Clustering-Driven Automation Assessment',
+    title: 'ITSM Clustering-Driven Automation Assessment',
     icon: faDiagramProject,
     description: (
       <>

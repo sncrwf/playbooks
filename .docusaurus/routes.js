@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/playbooks/playbooks/clustering-automation',
-    component: ComponentCreator('/playbooks/playbooks/clustering-automation', '2b4'),
+    component: ComponentCreator('/playbooks/playbooks/clustering-automation', 'a14'),
     routes: [
       {
         path: '/playbooks/playbooks/clustering-automation/CHANGELOG',
@@ -53,25 +53,25 @@ export default [
       },
       {
         path: '/playbooks/playbooks/clustering-automation/guide/clustering',
-        component: ComponentCreator('/playbooks/playbooks/clustering-automation/guide/clustering', 'b07'),
+        component: ComponentCreator('/playbooks/playbooks/clustering-automation/guide/clustering', '249'),
         exact: true,
         sidebar: "clusteringautomation"
       },
       {
-        path: '/playbooks/playbooks/clustering-automation/guide/playbook',
-        component: ComponentCreator('/playbooks/playbooks/clustering-automation/guide/playbook', '801'),
+        path: '/playbooks/playbooks/clustering-automation/guide/preparacao',
+        component: ComponentCreator('/playbooks/playbooks/clustering-automation/guide/preparacao', 'f85'),
         exact: true,
         sidebar: "clusteringautomation"
       },
       {
         path: '/playbooks/playbooks/clustering-automation/guide/recommendation',
-        component: ComponentCreator('/playbooks/playbooks/clustering-automation/guide/recommendation', '8a9'),
+        component: ComponentCreator('/playbooks/playbooks/clustering-automation/guide/recommendation', '7db'),
         exact: true,
         sidebar: "clusteringautomation"
       },
       {
         path: '/playbooks/playbooks/clustering-automation/guide/results',
-        component: ComponentCreator('/playbooks/playbooks/clustering-automation/guide/results', '0a5'),
+        component: ComponentCreator('/playbooks/playbooks/clustering-automation/guide/results', '0b2'),
         exact: true,
         sidebar: "clusteringautomation"
       },

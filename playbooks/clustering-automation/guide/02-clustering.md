@@ -1,18 +1,9 @@
 ---
 id: clustering
-title: "1. Configurando o Clustering"
-sidebar_label: "1. Configurando o Clustering"
+title: "2. Configurando o Clustering"
+sidebar_label: "2. Configurando o Clustering"
 hide_table_of_contents: true
 ---
-
-## Introdução
-
-Este guia descreve como configurar a funcionalidade de **Clustering de Inteligência Preditiva** para identificar candidatos de automação utilizando dados do cliente e ilustrar o valor não reconhecido do ITSM Professional.
-
-## Objetivo
-
-- Identificar casos de uso de automação utilizando dados do cliente.
-- Demonstrar o potencial de ferramentas como **Integration Hub Automation** e **Virtual Agent**.
 
 ## Clustering de Inteligência Preditiva
 
@@ -20,29 +11,13 @@ Este guia descreve como configurar a funcionalidade de **Clustering de Inteligê
 
 A aba de Visualização de Cluster no formulário de Definição de Solução de Clustering fornece um gráfico de dispersão que mostra os 50 principais clusters e seus registros individuais. É possível visualizar o rótulo, tamanho e valor percentil de qualidade de cada cluster.
 
-## Entendendo o Processo
+## Passo 1 - Criar o Corpus de Palavras
 
-![](../images/2024-12-27-14-51-55.png)
+:::info
+A partir da versão **Xanadu**, este passo **não é mais necessário.**
 
-### Etapas do Processo
-
-1. Ativar plugins: Predictive Intelligence, Continual Improvement e Performance Analytics.
-2. Configurar as Definições de Soluções de Clustering e analisar os Clusters resultantes para identificar candidatos de automação.
-3. Identificar e validar candidatos de automação.
-4. Fornecer recomendações.
-5. Quantificar e apresentar o valor para o negócio.
-
-### Requisitos
-
-- Acesso de administrador a uma instância sub-prod recentemente clonada, executando a versão New York ou superior.
-- Ativação dos plugins Predictive Intelligence e Continual Improvement Management.
-
-### Suporte
-- Utilize o canal **#ai_sc_assist_public** no Slack para suporte geral, dúvidas ou problemas relacionados ao processo de clustering.
-
-## Como Configurar o Clustering
-
-### Passo 1 - Criar o Corpus de Palavras
+Os modelos nos frameworks de classificação, clustering e similaridade agora utilizam soluções Workflow, que já vêm pré-treinadas. Por isso, não é mais necessário utilizar um corpus de palavras para suas novas soluções.
+:::
 
 Na instância sub-prod, identifique os campos significativos para a análise de clustering nos registros do cliente. Por exemplo:
 
@@ -74,13 +49,9 @@ Defina também o período de análise; por exemplo, todos os incidentes criados 
 
 Repita este passo para todas as outras tabelas que serão utilizadas. Na maioria dos casos, incluirá **Requested Items**, **Calls**, **Interactions** e **HR Cases**.
 
-### Passo 2 - Iniciar o Treinamento de Soluções de Clustering
+## Passo 2 - Iniciar o Treinamento de Soluções de Clustering
 
 Você pode treinar diferentes soluções utilizando filtros variados. No exemplo a seguir, criaremos uma definição de clustering para incidentes que não são de origem **Event Source**.
-
-![](../images/2024-12-27-14-52-26.png)
-
-**Nota:** Utilize o mesmo período e campos especificados no corpus de palavras selecionado. Por exemplo, se o corpus foi criado com "Short Description" de incidentes dos últimos 12 meses, crie a definição de clustering com os mesmos critérios.
 
 **Procedimento:**
 
@@ -89,7 +60,10 @@ Você pode treinar diferentes soluções utilizando filtros variados. No exemplo
 3. No formulário de Clustering Definition, configure os seguintes campos:
    - **Label**: Insira um nome único para a solução de clustering (ex.: "Incident - 2019 - Short Desc - non Event").
    - **Name**: Este campo será preenchido automaticamente com um nome baseado no valor de Label.
-   - **Word Corpus**: Selecione um corpus existente relevante para a solução (ex.: "Incidents 2019").
+   - ***Word Corpus**: Selecione um corpus existente relevante para a solução (ex.: "Incidents 2019").
+   :::info
+   A partir da versão **Xanadu**, o campo `Word Corpus` **não é mais necessário.**
+   :::
    - **Table**: Escolha a tabela que contém os tipos de registro a serem agrupados (ex.: "Incident [incident]").
    - **Fields**: Selecione os campos que ajudarão a identificar os registros nos clusters (ex.: "Short Description").
    - **Use Group By**: Selecione esta opção se desejar agrupar registros de entrada por um campo antes de criar os clusters. Para este caso, deixe desmarcado.
@@ -100,10 +74,14 @@ Você pode treinar diferentes soluções utilizando filtros variados. No exemplo
    - **Training Frequency**: Determine a frequência de treinamento (ex.: "Every 30 days" ou "Train just once").
    - **Minimum number of records per cluster**: Insira o número mínimo de registros permitido por cluster (ex.: 100).
 
-**Nota:** Por padrão, o número de registros para clustering é limitado a 100.000. Esse limite pode ser aumentado acessando a instância em modo de manutenção (**Predictive Intelligence > Configuration**).
+   **Nota:** Utilize o mesmo período e campos especificados no corpus de palavras selecionado. Por exemplo, se o corpus foi criado com "Short Description" de incidentes dos últimos 12 meses, crie a definição de clustering com os mesmos critérios.
 
-4. Clique em **Submit & Train** (ou **Update & Train** no caso de atualizar uma definição existente).
-5. Ao enviar a solução para treinamento, clique em **OK** na janela de ativação de treinamento para confirmar.
+   ![](../images/2024-12-27-14-52-26.png)
+
+   **Nota:** Por padrão, o número de registros para clustering é limitado a 100.000. Esse limite pode ser aumentado acessando a instância em modo de manutenção (**Predictive Intelligence > Configuration**).
+
+1. Clique em **Submit & Train** (ou **Update & Train** no caso de atualizar uma definição existente).
+2. Ao enviar a solução para treinamento, clique em **OK** na janela de ativação de treinamento para confirmar.
 
 Repita as etapas acima para todos os registros significativos (Requested Items, HR Cases, Interactions, etc.).
 
