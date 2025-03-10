@@ -54,32 +54,8 @@ const FeatureList = [
       <div class="button-homepage-vancouver">⚙️ ITSM</div><br/>Um processo orientado por dados que utiliza process mining para identificar, consolidar e priorizar oportunidades de automação.<br/>
       </>
     ),
-    to: './playbooks/pm-automation/guide/preparacao',
+    to: './playbooks/pm-automation/guide/introducao',
     target: '_self',
-  },
-
-  {
-    title: 'Clustering-Driven Automation Assessment',
-    icon: faCubes,
-    description: (
-      <>
-      <div class="button-homepage-vancouver">⚙️ ITSM</div><br/>Um processo orientado por dados que utiliza clustering para identificar, consolidar e priorizar oportunidades de automação.<br/>
-      </>
-    ),
-    to: './playbooks/clustering-automation/guide/preparacao',
-    target: '_self',
-  },
-
-  {
-    title: 'Report-Driven Automation Assessment',
-    icon: faMagnifyingGlassChart,
-    description: (
-      <>
-      <div class="button-homepage-vancouver">⚙️ ITSM</div><br/>Um processo orientado por dados que utiliza KPIs, Report e Dashboards para identificar, consolidar e priorizar oportunidades de automação.<br/>
-      </>
-    ),
-    to: './playbooks/manual-automation/guide/preparation',
-    target: '_self',
-  },
+  }
 
 ];
