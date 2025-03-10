@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import Link from '@docusaurus/Link';
-import { faArrowRight, faBrain, faDiagramProject, faFileInvoice, faGaugeHigh, faHouseLaptop, faHouseUser, faIdCardClip, faMagnifyingGlass, faMagnifyingGlassChart, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faBrain, faCubes, faDiagramProject, faFileInvoice, faGaugeHigh, faHouseLaptop, faHouseUser, faIdCardClip, faMagnifyingGlass, faMagnifyingGlassChart, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileCode, faUsers, faCog, faPlane, faRobot, faTruck, faHeadset } from '@fortawesome/free-solid-svg-icons';
@@ -47,8 +47,20 @@ export default HomepageFeatures;
 const FeatureList = [
 
   {
-    title: 'Clustering-Driven Automation Assessment',
+    title: 'Process Mining Automation Assessment',
     icon: faDiagramProject,
+    description: (
+      <>
+      <div class="button-homepage-vancouver">⚙️ ITSM</div><br/>Um processo orientado por dados que utiliza process mining para identificar, consolidar e priorizar oportunidades de automação.<br/>
+      </>
+    ),
+    to: './playbooks/pm-automation/guide/preparacao',
+    target: '_self',
+  },
+
+  {
+    title: 'Clustering-Driven Automation Assessment',
+    icon: faCubes,
     description: (
       <>
       <div class="button-homepage-vancouver">⚙️ ITSM</div><br/>Um processo orientado por dados que utiliza clustering para identificar, consolidar e priorizar oportunidades de automação.<br/>

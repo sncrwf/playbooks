@@ -132,6 +132,67 @@
         }
       ],
       "breadcrumbs": false
+    },
+    "pmautomation": {
+      "path": "/playbooks/playbooks/pm-automation",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/playbooks/playbooks/pm-automation",
+          "mainDocId": "guide/introducao",
+          "docs": [
+            {
+              "id": "CHANGELOG",
+              "path": "/playbooks/playbooks/pm-automation/CHANGELOG"
+            },
+            {
+              "id": "guide/configuration",
+              "path": "/playbooks/playbooks/pm-automation/guide/configuration",
+              "sidebar": "pmautomation"
+            },
+            {
+              "id": "guide/introducao",
+              "path": "/playbooks/playbooks/pm-automation/guide/introducao",
+              "sidebar": "pmautomation"
+            },
+            {
+              "id": "guide/preparacao",
+              "path": "/playbooks/playbooks/pm-automation/guide/preparacao",
+              "sidebar": "pmautomation"
+            },
+            {
+              "id": "guide/results",
+              "path": "/playbooks/playbooks/pm-automation/guide/results",
+              "sidebar": "pmautomation"
+            },
+            {
+              "id": "guide/sample",
+              "path": "/playbooks/playbooks/pm-automation/guide/sample",
+              "sidebar": "pmautomation"
+            },
+            {
+              "id": "playbook-guide-pdf",
+              "path": "/playbooks/playbooks/pm-automation/playbook-guide-pdf"
+            },
+            {
+              "id": "Survey",
+              "path": "/playbooks/playbooks/pm-automation/Survey"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "pmautomation": {
+              "link": {
+                "path": "/playbooks/playbooks/pm-automation/guide/introducao",
+                "label": "guide/introducao"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
     }
   }
 }

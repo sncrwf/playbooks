@@ -29,6 +29,16 @@ export default {
     [
       "@docusaurus/plugin-content-docs",
       {
+        "path": "playbooks/pm-automation",
+        "id": "pmautomation",
+        "routeBasePath": "playbooks/pm-automation",
+        "sidebarPath": "/Users/lucasalmeida/Documents/GitHub/playbooks/playbooks/pm-automation/sidebar.js",
+        "breadcrumbs": false
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
         "path": "playbooks/clustering-automation",
         "id": "clusteringautomation",
         "routeBasePath": "playbooks/clustering-automation",

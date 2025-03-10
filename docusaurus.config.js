@@ -42,6 +42,20 @@ const config = {
     },
 
     /*
+     * PM AUTOMATION
+     */
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        path: "playbooks/pm-automation",
+        id: "pmautomation",
+        routeBasePath: "playbooks/pm-automation",
+        sidebarPath: require.resolve("./playbooks/pm-automation/sidebar.js"),
+        breadcrumbs: false,
+      }
+    ],
+
+    /*
      * CLUSTERING AUTOMATION
      */
     [

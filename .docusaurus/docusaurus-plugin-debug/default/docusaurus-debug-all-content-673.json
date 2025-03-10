@@ -15,6 +15,240 @@
   "docusaurus-plugin-sass": {},
   "docusaurus-tailwindcss": {},
   "docusaurus-plugin-content-docs": {
+    "pmautomation": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/playbooks/playbooks/pm-automation",
+          "tagsPath": "/playbooks/playbooks/pm-automation/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/lucasalmeida/Documents/GitHub/playbooks/playbooks/pm-automation/sidebar.js",
+          "contentPath": "/Users/lucasalmeida/Documents/GitHub/playbooks/playbooks/pm-automation",
+          "contentPathLocalized": "/Users/lucasalmeida/Documents/GitHub/playbooks/i18n/en/docusaurus-plugin-content-docs-pmautomation/current",
+          "docs": [
+            {
+              "unversionedId": "CHANGELOG",
+              "id": "CHANGELOG",
+              "title": "CHANGELOG",
+              "description": "Histórico",
+              "source": "@site/playbooks/pm-automation/CHANGELOG.md",
+              "sourceDirName": ".",
+              "slug": "/CHANGELOG",
+              "permalink": "/playbooks/playbooks/pm-automation/CHANGELOG",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "guide/configuration",
+              "id": "guide/configuration",
+              "title": "4. Configurando o Process Mining",
+              "description": "Configurando um Projeto Personalizado",
+              "source": "@site/playbooks/pm-automation/guide/04-configuration.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/configuration",
+              "permalink": "/playbooks/playbooks/pm-automation/guide/configuration",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "configuration",
+                "title": "4. Configurando o Process Mining",
+                "sidebar_label": "4. Configurando o Process Mining",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "pmautomation",
+              "previous": {
+                "title": "3. Utilizando Projeto Sample",
+                "permalink": "/playbooks/playbooks/pm-automation/guide/sample"
+              },
+              "next": {
+                "title": "3. Análise dos Resultados",
+                "permalink": "/playbooks/playbooks/pm-automation/guide/results"
+              }
+            },
+            {
+              "unversionedId": "guide/introducao",
+              "id": "guide/introducao",
+              "title": "1. Introdução",
+              "description": "Introdução",
+              "source": "@site/playbooks/pm-automation/guide/01-objetivo.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/introducao",
+              "permalink": "/playbooks/playbooks/pm-automation/guide/introducao",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "introducao",
+                "title": "1. Introdução",
+                "sidebar_label": "1. Introdução",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "pmautomation",
+              "next": {
+                "title": "2. Preparando o Ambiente",
+                "permalink": "/playbooks/playbooks/pm-automation/guide/preparacao"
+              }
+            },
+            {
+              "unversionedId": "guide/preparacao",
+              "id": "guide/preparacao",
+              "title": "2. Preparando o Ambiente",
+              "description": "Ativar o Plugin Process Mining",
+              "source": "@site/playbooks/pm-automation/guide/02-preparacao.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/preparacao",
+              "permalink": "/playbooks/playbooks/pm-automation/guide/preparacao",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "preparacao",
+                "title": "2. Preparando o Ambiente",
+                "sidebar_label": "2. Preparando o Ambiente",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "pmautomation",
+              "previous": {
+                "title": "1. Introdução",
+                "permalink": "/playbooks/playbooks/pm-automation/guide/introducao"
+              },
+              "next": {
+                "title": "3. Utilizando Projeto Sample",
+                "permalink": "/playbooks/playbooks/pm-automation/guide/sample"
+              }
+            },
+            {
+              "unversionedId": "guide/results",
+              "id": "guide/results",
+              "title": "3. Análise dos Resultados com Clustering Recommendations Utility",
+              "description": "1. Identifique padrões e gargalos no processo",
+              "source": "@site/playbooks/pm-automation/guide/05-results.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/results",
+              "permalink": "/playbooks/playbooks/pm-automation/guide/results",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "id": "results",
+                "title": "3. Análise dos Resultados com Clustering Recommendations Utility",
+                "sidebar_label": "3. Análise dos Resultados",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "pmautomation",
+              "previous": {
+                "title": "4. Configurando o Process Mining",
+                "permalink": "/playbooks/playbooks/pm-automation/guide/configuration"
+              }
+            },
+            {
+              "unversionedId": "guide/sample",
+              "id": "guide/sample",
+              "title": "3. Utilizando Projeto Sample",
+              "description": "O process mining já trás pré-configurado um projeto de sample para avaliação da tabela de incidentes com limite de 3.6k registros para incidentes do últimos 7 dias. Iremos utilizar este projeto inicialmente.",
+              "source": "@site/playbooks/pm-automation/guide/03-sample.md",
+              "sourceDirName": "guide",
+              "slug": "/guide/sample",
+              "permalink": "/playbooks/playbooks/pm-automation/guide/sample",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "sample",
+                "title": "3. Utilizando Projeto Sample",
+                "sidebar_label": "3. Utilizando Projeto Sample",
+                "hide_table_of_contents": true
+              },
+              "sidebar": "pmautomation",
+              "previous": {
+                "title": "2. Preparando o Ambiente",
+                "permalink": "/playbooks/playbooks/pm-automation/guide/preparacao"
+              },
+              "next": {
+                "title": "4. Configurando o Process Mining",
+                "permalink": "/playbooks/playbooks/pm-automation/guide/configuration"
+              }
+            },
+            {
+              "unversionedId": "playbook-guide-pdf",
+              "id": "playbook-guide-pdf",
+              "title": "Baixar Guia do Playbook em PDF",
+              "description": "Clique aqui para baixar o Guia do Laboratório em PDF",
+              "source": "@site/playbooks/pm-automation/lab-guide-pdf.md",
+              "sourceDirName": ".",
+              "slug": "/playbook-guide-pdf",
+              "permalink": "/playbooks/playbooks/pm-automation/playbook-guide-pdf",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "playbook-guide-pdf",
+                "title": "Baixar Guia do Playbook em PDF",
+                "draft": false
+              }
+            },
+            {
+              "unversionedId": "Survey",
+              "id": "Survey",
+              "title": "Valorizamos Seu Feedback!",
+              "description": "Ajude-nos a Melhorar Sua Experiência de Aprendizado",
+              "source": "@site/playbooks/pm-automation/06-Survey.md",
+              "sourceDirName": ".",
+              "slug": "/Survey",
+              "permalink": "/playbooks/playbooks/pm-automation/Survey",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "title": "Valorizamos Seu Feedback!",
+                "sidebar_label": "Pesquisa",
+                "hide_table_of_contents": true
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "pmautomation": [
+              {
+                "type": "doc",
+                "id": "guide/introducao"
+              },
+              {
+                "type": "doc",
+                "id": "guide/preparacao"
+              },
+              {
+                "type": "doc",
+                "id": "guide/sample"
+              },
+              {
+                "type": "doc",
+                "id": "guide/configuration"
+              },
+              {
+                "type": "doc",
+                "id": "guide/results"
+              }
+            ]
+          }
+        }
+      ]
+    },
     "clusteringautomation": {
       "loadedVersions": [
         {
